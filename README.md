@@ -7,6 +7,9 @@ freyja ground control station. talks with launchpad controller surtr over lora t
 - every part from lcsc so that pcb can be assembled by jlcpcb
 - 4-layer pcb. mainly for usb signal integrity
 
+## tools
+kicad + the plugin [impartGUI](https://github.com/Steffen-W/Import-LIB-KiCad-Plugin). impartGUI makes it really easy to get symbols and footprints downloaded directly from lcsc.
+
 ## TODO PCB
 - ESD/TVS diodes on every connecter and button
 - Layout
