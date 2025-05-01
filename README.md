@@ -1,4 +1,6 @@
-freyja ground control station. talks with launchpad controller surtr over lora through brage and to fjaelar over brage. 
+freyja ground control station. talks with launchpad controller surtr over lora through brage and to fjaelar over brage.
+
+![overview system diagram](overview_diagram.png)
 
 ## goals
 - pcb should be able to run standalone from raspberry in case of raspberry malfunction
