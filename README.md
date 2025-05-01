@@ -26,9 +26,11 @@ kicad + the plugin [impartGUI](https://github.com/Steffen-W/Import-LIB-KiCad-Plu
   - led for every valve toggle. should only be activated if surtr confirms position. 
   - connection status with surtr
   - connection status with fjaelar
+  - alarm
 - eeprom or sd card for saving telemetry
 - battery charging circuit
 - raspberry pi power
 - 2 can ports
   - one for brage 
   - one for connecting directly to 
+- buzzer? for alarms
