@@ -34,3 +34,21 @@ kicad + the plugin [impartGUI](https://github.com/Steffen-W/Import-LIB-KiCad-Plu
   - one for brage 
   - one for connecting directly to 
 - buzzer? for alarms
+
+## Components selection 
+### Part ID from LCSC
+- C100042 - Capacitor
+- C1788487 - Toggle switch
+- C965807 - Blue LED
+- C965804 - Green LED
+- C965799 - Red LED
+- C95299 - Buzzer
+- C720477 - push button
+- C18221474 - DC-DC booster
+
+- 2 LiPo cells in series. (7.2V = 3.7 + 3.7V)
+- Use DC-DC buck to step down the voltage to power RPi (min 4A continious current).
+- We have to find a charging circuit for the 7.2V battries.
+- Flip the toggle switch and hit send button to send command to sutur (this has to be done in the software).
+- Therefore we will have 7 switches (6 toggle + 1 send)(in pull-up config).
+
