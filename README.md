@@ -15,7 +15,7 @@ kicad + the plugin [impartGUI](https://github.com/Steffen-W/Import-LIB-KiCad-Plu
 - Layout
 - configure stackup according to jlcpcb specs
 - usb 90 ohm diff-z
-- valve toggle switches
+- valve toggle switches (we need 6 of them)
 - 10n cap on every switch for manual debounce, will do in software as well
 - lockout switch or key
 - initiate countdown button
