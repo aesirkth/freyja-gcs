@@ -10003,6 +10003,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 120.65 124.46)
+		(size 24.13 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "99f2965f-35dc-4bd1-a7bc-81425487c2fb")
+		(property "Sheetname" "Switch_pins"
+			(at 120.65 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Switch_pins.kicad_sch"
+			(at 120.65 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "freyja-gcs-pcb"
+				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
