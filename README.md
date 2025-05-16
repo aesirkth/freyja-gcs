@@ -1,4 +1,4 @@
-freyja ground control station. talks with launchpad controller surtr over lora through brage and to fjalar over brage.
+freyja ground control station. talks with launchpad controller surtr over lora through brage and to fjaelar over brage.
 
 ![overview system diagram](overview_diagram.png)
 
@@ -15,17 +15,17 @@ kicad + the plugin [impartGUI](https://github.com/Steffen-W/Import-LIB-KiCad-Plu
 - Layout
 - configure stackup according to jlcpcb specs
 - usb 90 ohm diff-z
-- valve toggle switches (we need 6 of them)
+- valve toggle switches
 - 10n cap on every switch for manual debounce, will do in software as well
 - lockout switch or key
 - initiate countdown button
 - 7-segment (or ssd1306 oled?) countdown for redundancy operation without rpi
 - abort countdown button
 - leds:
-  - ARMED led indicator
+  - HOT/READY led indicator
   - led for every valve toggle. should only be activated if surtr confirms position. 
   - connection status with surtr
-  - connection status with fjalar
+  - connection status with fjaelar
   - alarm
 - eeprom or sd card for saving telemetry
 - battery charging circuit
