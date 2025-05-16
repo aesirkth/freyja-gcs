@@ -34,6 +34,7 @@ kicad + the plugin [impartGUI](https://github.com/Steffen-W/Import-LIB-KiCad-Plu
   - one for brage 
   - one for connecting directly to 
 - buzzer? for alarms
+- short circuit protection
 
 ## Components selection 
 - 2 LiPo cells in series. (7.2V = 3.7 + 3.7V)
