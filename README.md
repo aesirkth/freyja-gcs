@@ -51,6 +51,7 @@ kicad + the plugin [impartGUI](https://github.com/Steffen-W/Import-LIB-KiCad-Plu
 - C95299 - Buzzer
 - C42435361 - push button
 - C18221474 - DC-DC booster
+- C98220 - 10k ohm resistor
 
 
 ## SOFTWARE
