@@ -49,7 +49,7 @@ kicad + the plugin [impartGUI](https://github.com/Steffen-W/Import-LIB-KiCad-Plu
 - C965804 - Green LED
 - C965799 - Red LED
 - C95299 - Buzzer
-- C720477 - push button
+- C42435361 - push button
 - C18221474 - DC-DC booster
 
 
