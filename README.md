@@ -45,6 +45,7 @@ kicad + the plugin [impartGUI](https://github.com/Steffen-W/Import-LIB-KiCad-Plu
 ### Part ID from LCSC
 - C100042 - Capacitor
 - C1788487 - Toggle switch
+- C268254 - Push switch
 - C965807 - Blue LED
 - C965804 - Green LED
 - C965799 - Red LED
