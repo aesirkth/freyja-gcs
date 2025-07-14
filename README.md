@@ -29,6 +29,7 @@ kicad + the plugin [impartGUI](https://github.com/Steffen-W/Import-LIB-KiCad-Plu
   - alarm
 - eeprom or sd card for saving telemetry
 - battery charging circuit
+  - undervoltage lockout
 - raspberry pi power
 - 2 can ports
   - one for brage 
