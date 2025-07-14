@@ -105,6 +105,7 @@ Specs:
     - CO2 activated [yes/no]
     - Parachute line cutters. 2 ones.
     - umbilical disconnect
+    - tank bleed valve
 - Gets binary data stream from GCS PCB. Hugo will help with protocol
   pack/unpack. [See wiki comparison of serialization formats](https://en.wikipedia.org/wiki/Comparison_of_data-serialization_formats). Maybe choose Protobuf or similar?
 - Database to store all data
