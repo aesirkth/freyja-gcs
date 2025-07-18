@@ -971,9 +971,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "EasyEDA:CN4048M00009T8188019"
-			(pin_numbers
-				(hide yes)
-			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1187,9 +1184,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "EasyEDA:CR2032-BS-2-1"
-			(pin_names
-				(hide yes)
-			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1334,9 +1328,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "EasyEDA:GT-USB-7010ASV"
-			(pin_numbers
-				(hide yes)
-			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1933,9 +1924,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "EasyEDA:TAXD32768K2BGACZT2T"
-			(pin_names
-				(hide yes)
-			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5661,7 +5649,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 73.66) (xy 104.14 73.66)
+			(xy 96.52 73.66) (xy 105.41 73.66)
 		)
 		(stroke
 			(width 0)
@@ -6101,7 +6089,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 76.2) (xy 104.14 76.2)
+			(xy 96.52 76.2) (xy 105.41 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6310,7 +6298,7 @@
 		(uuid "4d3efac4-35b4-4dca-b0a0-2bb458d6dc0d")
 	)
 	(label "SWCLK"
-		(at 104.14 76.2 180)
+		(at 105.41 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6320,7 +6308,7 @@
 		(uuid "67bfaa1c-681b-4b2d-a00e-f0c7510e3246")
 	)
 	(label "SWDIO"
-		(at 104.14 73.66 180)
+		(at 105.41 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10692,6 +10680,48 @@
 		)
 		(property "Sheetfile" "Switch_pins.kicad_sch"
 			(at 120.65 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "freyja-gcs-pcb"
+				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.74 76.2)
+		(size 21.59 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c65c6484-459d-48da-abd0-c2a58ebde1bb")
+		(property "Sheetname" "Power"
+			(at 205.74 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 205.74 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)

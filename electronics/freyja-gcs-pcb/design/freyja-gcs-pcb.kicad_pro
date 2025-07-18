@@ -629,6 +629,10 @@
     [
       "99f2965f-35dc-4bd1-a7bc-81425487c2fb",
       "Switch_pins"
+    ],
+    [
+      "c65c6484-459d-48da-abd0-c2a58ebde1bb",
+      "Power"
     ]
   ],
   "text_variables": {}
