@@ -4,7 +4,7 @@ freyja ground control station. talks with launchpad controller surtr over lora t
 
 ## goals
 - pcb should be able to run standalone from raspberry in case of raspberry malfunction
-- every part from lcsc so that pcb can be assembled by jlcpcb
+- every part from lcsc so that pcb can be assembled by jlcpcb. only select parts that have lot in stock. 
 - 4-layer pcb. mainly for usb signal integrity
 
 ## tools
