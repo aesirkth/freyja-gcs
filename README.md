@@ -1,4 +1,4 @@
-freyja ground control station. talks with launchpad controller surtr over lora through brage and to fjaelar over brage.
+freyja ground control station. talks with launchpad controller surtr over lora through brage and to fjalar over brage.
 
 ![overview system diagram](overview_diagram.png)
 
@@ -22,10 +22,10 @@ kicad + the plugin [impartGUI](https://github.com/Steffen-W/Import-LIB-KiCad-Plu
 - 7-segment (or ssd1306 oled?) countdown for redundancy operation without rpi
 - abort countdown button
 - leds:
-  - HOT/READY led indicator
+  - ARMED led indicator
   - led for every valve toggle. should only be activated if surtr confirms position. 
   - connection status with surtr
-  - connection status with fjaelar
+  - connection status with fjalar
   - alarm
 - eeprom or sd card for saving telemetry
 - battery charging circuit
@@ -51,3 +51,57 @@ kicad + the plugin [impartGUI](https://github.com/Steffen-W/Import-LIB-KiCad-Plu
 - C95299 - Buzzer
 - C720477 - push button
 - C18221474 - DC-DC booster
+
+
+## SOFTWARE
+
+We need two code bases. One Zephyr application that runs on the GCS PCB (PCB APP). And one Javascript and React + Python Raspberry Pi app (RPI APP) for displaying and managing the telemetry data. 
+
+### PCB APP
+
+Specs:
+- Zephyr
+- Talks with rocket and pad control through brage over CAN FD
+- USB CDC to send data to RPI. Choose appropriate serialization format. 
+- Sends valve toggle position only when send button has been pressed. 
+- Shows status of valve on led.  
+
+
+### RPI APP
+
+Specs:
+- Data to show:
+  - Analog
+    - With plot:
+      - Altitude
+      - Thrust. From loadcell. 
+      - Orientation (from IMU)
+      - Airbrake percantage
+    - Without plot (only value):
+      - Speed
+      - Battery voltage
+      - Countdown
+      - Tank temperature. 6 ones spread over the tank.
+      - Injector temperature
+      - Post-combustion chamber temperature. 2 ones. 
+      - Nozzle temperature. 2 ones.
+      - Pressure at injector. 3 ones. 
+    - Misc.
+      - (GPS map if time over)
+  - Discrete/bool:
+    - Valve status (closed/open/unknown). 5 or 6 valves. 
+    - Disarmed/armed
+    - Ready/launched
+    - Connection status with launch pad Surtr (down/up)
+    - Connection status with rocket Fjalar (down/up)
+    - Tank full float switch. (full/not full)
+    - Main valve actuator (closed/open/unknown)
+    - Abort valve actuator (closed/open/unknown)
+    - CO2 activated [yes/no]
+    - Parachute line cutters. 2 ones. 
+- Gets binary data stream from GCS PCB. Hugo will help with protocol
+  pack/unpack. [See wiki comparison of serialization formats](https://en.wikipedia.org/wiki/Comparison_of_data-serialization_formats). Maybe choose Protobuf or similar?
+- Database to store all data
+
+
+
