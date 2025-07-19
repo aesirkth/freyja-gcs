@@ -28,16 +28,17 @@ kicad + the plugin [impartGUI](https://github.com/Steffen-W/Import-LIB-KiCad-Plu
   - connection status with fjaelar
   - alarm
 - eeprom or sd card for saving telemetry
-- battery charging circuit
-  - undervoltage lockout
+- [x] battery charging circuit
+  - [x] undervoltage lockout
 - raspberry pi power
 - 2 can ports
   - one for brage 
   - one for connecting directly to 
 - buzzer? for alarms
-- short circuit protection
+- [x] short circuit protection
 - fan connector
 - battery ntc work up to 70deg
+- led backlight driver
 
 ## Components selection 
 - 2 LiPo cells in series. (7.2V = 3.7 + 3.7V)
@@ -58,6 +59,9 @@ kicad + the plugin [impartGUI](https://github.com/Steffen-W/Import-LIB-KiCad-Plu
 - C18221474 - DC-DC booster
 - C98220 - 10k ohm resistor
 
+## To order
+- [ ] 10-pin jst ph
+- [ ] pcb
 
 ## SOFTWARE
 

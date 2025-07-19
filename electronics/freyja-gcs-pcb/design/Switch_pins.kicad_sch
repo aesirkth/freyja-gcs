@@ -5,37 +5,34 @@
 	(uuid "2c1c1a8c-f5eb-45a4-b98f-fdc85b48c9b3")
 	(paper "A4")
 	(lib_symbols
-		(symbol "EasyEDA:RC0603FR-0710KL"
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0 5.08 0)
+				(at 2.032 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "RC0603FR-0710KL"
-				(at 0 -5.08 0)
+			(property "Value" "R"
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:R0603"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1_C98220.html"
-				(at 0 -10.16 0)
+			(property "Footprint" ""
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -43,7 +40,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -52,8 +49,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C98220"
-				(at 0 -12.7 0)
+			(property "Description" "Resistor"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -61,22 +58,42 @@
 					(hide yes)
 				)
 			)
-			(symbol "RC0603FR-0710KL_0_1"
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
 				(rectangle
-					(start -2.54 1.02)
-					(end 2.54 -1.02)
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -91,10 +108,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -239,6 +256,12 @@
 			(embedded_fonts no)
 		)
 		(symbol "EasyEDA:TS1210CJ250GF009"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -848,6 +871,255 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EasyEDA:XT60PB-M.G.Y"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XT60PB-M.G.Y"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:CONN-TH_XT60PB-M"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C19268037"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XT60PB-M.G.Y_0_1"
+				(rectangle
+					(start -2.54 2.54)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 1.27)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1075,89 +1347,16 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 78.74 57.15)
-		(end 132.08 102.87)
-		(stroke
-			(width 0)
-			(type default)
+	(text "ARMING\nKEYRING"
+		(exclude_from_sim no)
+		(at 236.22 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
-		(fill
-			(type none)
-		)
-		(uuid 1c0aa769-cc08-45f1-b20e-aec7a20bac6f)
-	)
-	(rectangle
-		(start 20.32 110.49)
-		(end 73.66 156.21)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 313315ec-179a-463d-a2eb-0154eba931e6)
-	)
-	(rectangle
-		(start 138.43 110.49)
-		(end 191.77 156.21)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 43b7010f-2401-4041-9516-73e59e3a6659)
-	)
-	(rectangle
-		(start 217.17 87.63)
-		(end 267.97 128.27)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 450207ff-19fc-4e99-8f77-bb16fd78f218)
-	)
-	(rectangle
-		(start 78.74 110.49)
-		(end 132.08 156.21)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 8cb7c915-a4f6-48c0-952c-fb6f92efb736)
-	)
-	(rectangle
-		(start 20.32 57.15)
-		(end 73.66 102.87)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 9e301326-7cab-492c-8dc7-78177f51f66f)
-	)
-	(rectangle
-		(start 138.43 57.15)
-		(end 191.77 102.87)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid acb5c862-5f8b-4a8f-b184-c0433582fa29)
+		(uuid "6be56604-38cc-449b-9d43-564281854575")
 	)
 	(junction
 		(at 41.91 137.16)
@@ -1178,10 +1377,22 @@
 		(uuid "36c45502-2b42-4f88-8a2b-17166322b5c0")
 	)
 	(junction
+		(at 240.03 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "553f02d0-dfcc-4668-a5e0-b5c5a0262050")
+	)
+	(junction
 		(at 160.02 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80cca905-74ea-41bc-b6ce-2fb5fe8cd781")
+	)
+	(junction
+		(at 240.03 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8795ade8-28dd-4680-a0c3-90f8a11574f2")
 	)
 	(junction
 		(at 245.11 109.22)
@@ -1353,13 +1564,23 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 83.82) (xy 240.03 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "877aa923-b402-4c14-8fb1-e3fdf03c1601")
+	)
+	(wire
+		(pts
 			(xy 240.03 95.25) (xy 240.03 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a21869bd-da12-457f-85ab-bc98d03668f6")
+		(uuid "9d50cf36-209b-4d96-abe8-46c135426d04")
 	)
 	(wire
 		(pts
@@ -1380,6 +1601,26 @@
 			(type default)
 		)
 		(uuid "a232f5df-32a4-404e-8d65-0c751eeac17f")
+	)
+	(wire
+		(pts
+			(xy 245.11 123.19) (xy 245.11 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b213dcc4-02a9-40bc-9220-5496d2cc90a2")
+	)
+	(wire
+		(pts
+			(xy 240.03 121.92) (xy 240.03 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b43964cf-ceae-4679-a93d-7a2a8fea580f")
 	)
 	(wire
 		(pts
@@ -1430,6 +1671,26 @@
 			(type default)
 		)
 		(uuid "d5102e21-99d8-4756-b1ca-bd657c5b656d")
+	)
+	(wire
+		(pts
+			(xy 240.03 97.79) (xy 240.03 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7292006-3d64-4d1f-b6b4-07bf1c9c05d8")
+	)
+	(wire
+		(pts
+			(xy 240.03 107.95) (xy 240.03 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8db45e8-20e5-4061-89b8-1cdde2b98f5f")
 	)
 	(wire
 		(pts
@@ -1633,7 +1894,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 245.11 121.92 0)
+		(at 245.11 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1642,7 +1903,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ab87efd-5a68-4400-aa03-61b287b4450c")
 		(property "Reference" "#PWR039"
-			(at 245.11 128.27 0)
+			(at 245.11 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1651,7 +1912,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 245.11 127 0)
+			(at 245.11 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1659,7 +1920,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 121.92 0)
+			(at 245.11 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1668,7 +1929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 121.92 0)
+			(at 245.11 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1677,7 +1938,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 245.11 121.92 0)
+			(at 245.11 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1912,7 +2173,139 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:RC0603FR-0710KL")
+		(lib_id "power:+3V3")
+		(at 240.03 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d4852a0-7fca-4e4f-ad00-16a0f72e9004")
+		(property "Reference" "#PWR070"
+			(at 240.03 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 240.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 240.03 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "973c74d7-a28d-47d3-942e-7a673b253b21")
+		)
+		(instances
+			(project ""
+				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/99f2965f-35dc-4bd1-a7bc-81425487c2fb"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 240.03 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "208e13e5-9cc6-45ef-88ea-96e8cc0aa0e9")
+		(property "Reference" "#PWR031"
+			(at 240.03 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.03 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 240.03 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb51a1d0-fbb0-4d1c-af5f-445f62b25f3f")
+		)
+		(instances
+			(project "freyja-gcs-pcb"
+				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/99f2965f-35dc-4bd1-a7bc-81425487c2fb"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 160.02 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1922,25 +2315,23 @@
 		(fields_autoplaced yes)
 		(uuid "2789741d-3f5f-4d1d-9630-af98c4f87ad1")
 		(property "Reference" "R8"
-			(at 162.56 90.1699 90)
+			(at 160.02 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "RC0603FR-0710KL"
-			(at 162.56 92.7099 90)
+			(at 160.02 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "EasyEDA:R0603"
-			(at 167.64 91.44 0)
+			(at 160.02 93.218 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1948,8 +2339,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1_C98220.html"
-			(at 170.18 91.44 0)
+		(property "Datasheet" "~"
+			(at 160.02 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1957,7 +2348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 160.02 91.44 0)
 			(effects
 				(font
@@ -2057,8 +2448,8 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:RC0603FR-0710KL")
-		(at 245.11 116.84 90)
+		(lib_id "Device:R")
+		(at 245.11 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2067,25 +2458,25 @@
 		(fields_autoplaced yes)
 		(uuid "4ab555c2-979e-4158-ae55-fe7d3fdc87ff")
 		(property "Reference" "R9"
-			(at 247.65 115.5699 90)
+			(at 247.65 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "RC0603FR-0710KL"
-			(at 247.65 118.1099 90)
+			(at 247.65 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "EasyEDA:R0603"
-			(at 252.73 116.84 0)
+			(at 243.332 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2093,8 +2484,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1_C98220.html"
-			(at 255.27 116.84 0)
+		(property "Datasheet" "~"
+			(at 245.11 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2102,7 +2493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 245.11 116.84 0)
 			(effects
 				(font
@@ -2112,7 +2503,7 @@
 			)
 		)
 		(property "LCSC Part" "C98220"
-			(at 257.81 116.84 0)
+			(at 245.11 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2521,7 +2912,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:RC0603FR-0710KL")
+		(lib_id "Device:R")
 		(at 41.91 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2531,25 +2922,23 @@
 		(fields_autoplaced yes)
 		(uuid "663d9a96-492f-4419-b1ff-7c22e48cb7fc")
 		(property "Reference" "R6"
-			(at 44.45 90.1699 90)
+			(at 41.91 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "RC0603FR-0710KL"
-			(at 44.45 92.7099 90)
+			(at 41.91 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "EasyEDA:R0603"
-			(at 49.53 91.44 0)
+			(at 41.91 93.218 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2557,8 +2946,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1_C98220.html"
-			(at 52.07 91.44 0)
+		(property "Datasheet" "~"
+			(at 41.91 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2566,7 +2955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 41.91 91.44 0)
 			(effects
 				(font
@@ -2808,72 +3197,6 @@
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/99f2965f-35dc-4bd1-a7bc-81425487c2fb"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 240.03 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "744cd514-320c-4e52-b6cb-e4d4ffcbd3e5")
-		(property "Reference" "#PWR031"
-			(at 240.03 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 240.03 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 240.03 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "808a456b-d6f6-40d0-90ff-d7f8f208bae3")
-		)
-		(instances
-			(project "freyja-gcs-pcb"
-				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/99f2965f-35dc-4bd1-a7bc-81425487c2fb"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -3315,6 +3638,85 @@
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/99f2965f-35dc-4bd1-a7bc-81425487c2fb"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 240.03 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92012fcc-d7b2-41ad-9404-37057e2a94a5")
+		(property "Reference" "R37"
+			(at 242.57 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RC0603FR-0710KL"
+			(at 242.57 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:R0603"
+			(at 238.252 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 240.03 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C98220"
+			(at 240.03 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9024bafb-2edb-400b-8d86-20986a55e6e7")
+		)
+		(pin "2"
+			(uuid "c33a8691-b97f-472a-9b33-a16841eb66d8")
+		)
+		(instances
+			(project "freyja-gcs-pcb"
+				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/99f2965f-35dc-4bd1-a7bc-81425487c2fb"
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -3772,7 +4174,86 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:RC0603FR-0710KL")
+		(lib_id "EasyEDA:XT60PB-M.G.Y")
+		(at 240.03 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9f781fb-7656-4345-9ea2-ff7480bc33df")
+		(property "Reference" "J5"
+			(at 243.84 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "XT60PB-M.G.Y"
+			(at 243.84 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA:CONN-TH_XT60PB-M"
+			(at 247.65 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19268037"
+			(at 250.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e6dd4c8d-80d6-4d55-abe5-c03898164476")
+		)
+		(pin "1"
+			(uuid "a11caba8-af76-48c8-9f0f-3672e7d9f0ff")
+		)
+		(instances
+			(project ""
+				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/99f2965f-35dc-4bd1-a7bc-81425487c2fb"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 160.02 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3782,25 +4263,23 @@
 		(fields_autoplaced yes)
 		(uuid "bc88c9c9-0cef-41dd-a0c6-0ac790ce3dbf")
 		(property "Reference" "R12"
-			(at 162.56 143.5099 90)
+			(at 160.02 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "RC0603FR-0710KL"
-			(at 162.56 146.0499 90)
+			(at 160.02 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "EasyEDA:R0603"
-			(at 167.64 144.78 0)
+			(at 160.02 146.558 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3808,8 +4287,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1_C98220.html"
-			(at 170.18 144.78 0)
+		(property "Datasheet" "~"
+			(at 160.02 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3817,7 +4296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 160.02 144.78 0)
 			(effects
 				(font
@@ -3936,7 +4415,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:RC0603FR-0710KL")
+		(lib_id "Device:R")
 		(at 100.33 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3946,25 +4425,23 @@
 		(fields_autoplaced yes)
 		(uuid "c0d91d50-fbf8-4568-abaf-879acf7cbc08")
 		(property "Reference" "R11"
-			(at 102.87 143.5099 90)
+			(at 100.33 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "RC0603FR-0710KL"
-			(at 102.87 146.0499 90)
+			(at 100.33 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "EasyEDA:R0603"
-			(at 107.95 144.78 0)
+			(at 100.33 146.558 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3972,8 +4449,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1_C98220.html"
-			(at 110.49 144.78 0)
+		(property "Datasheet" "~"
+			(at 100.33 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3981,7 +4458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 100.33 144.78 0)
 			(effects
 				(font
@@ -4147,7 +4624,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:RC0603FR-0710KL")
+		(lib_id "Device:R")
 		(at 100.33 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4157,25 +4634,23 @@
 		(fields_autoplaced yes)
 		(uuid "d4613191-a9ef-4d02-b316-c975fff9c109")
 		(property "Reference" "R7"
-			(at 102.87 90.1699 90)
+			(at 100.33 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "RC0603FR-0710KL"
-			(at 102.87 92.7099 90)
+			(at 100.33 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "EasyEDA:R0603"
-			(at 107.95 91.44 0)
+			(at 100.33 93.218 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4183,8 +4658,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1_C98220.html"
-			(at 110.49 91.44 0)
+		(property "Datasheet" "~"
+			(at 100.33 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4192,7 +4667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 100.33 91.44 0)
 			(effects
 				(font
@@ -4490,7 +4965,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:RC0603FR-0710KL")
+		(lib_id "Device:R")
 		(at 41.91 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4500,25 +4975,23 @@
 		(fields_autoplaced yes)
 		(uuid "efd50f6e-43c5-4f59-91e0-284cf07fce82")
 		(property "Reference" "R10"
-			(at 44.45 143.5099 90)
+			(at 41.91 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "RC0603FR-0710KL"
-			(at 44.45 146.0499 90)
+			(at 41.91 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "EasyEDA:R0603"
-			(at 49.53 144.78 0)
+			(at 41.91 146.558 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4526,8 +4999,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1_C98220.html"
-			(at 52.07 144.78 0)
+		(property "Datasheet" "~"
+			(at 41.91 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4535,7 +5008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 41.91 144.78 0)
 			(effects
 				(font

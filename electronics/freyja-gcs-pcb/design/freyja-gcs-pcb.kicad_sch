@@ -971,6 +971,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "EasyEDA:CN4048M00009T8188019"
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1924,6 +1927,12 @@
 			(embedded_fonts no)
 		)
 		(symbol "EasyEDA:TAXD32768K2BGACZT2T"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -9234,7 +9243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a9acd1a-e410-43b5-80b9-accec9fce687")
-		(property "Reference" "U3"
+		(property "Reference" "J2"
 			(at 64.77 142.24 0)
 			(effects
 				(font
@@ -9337,7 +9346,7 @@
 		(instances
 			(project ""
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "U3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
