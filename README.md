@@ -36,9 +36,9 @@ kicad + the plugin [impartGUI](https://github.com/Steffen-W/Import-LIB-KiCad-Plu
   - one for connecting directly to 
 - buzzer? for alarms
 - [x] short circuit protection
-- fan connector
+- [x] fan connector
 - battery ntc work up to 70deg
-- led backlight driver
+- [x] led backlight driver
 
 ## Components selection 
 - 2 LiPo cells in series. (7.2V = 3.7 + 3.7V)
