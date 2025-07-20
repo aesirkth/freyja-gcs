@@ -1004,6 +1004,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "EasyEDA:CR2032-BS-2-1"
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4449,16 +4452,22 @@
 		(uuid "6253d27a-1549-4cc2-a2d5-a8256b41fa0c")
 	)
 	(junction
-		(at 64.77 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64d25f3f-c90c-406c-bd20-bc84a33780a0")
-	)
-	(junction
 		(at 81.28 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "667bb098-807b-4059-8e54-b03c5971ef5f")
+	)
+	(junction
+		(at 59.69 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bbad535-5f7d-46c9-9ef4-da77cd157a9a")
+	)
+	(junction
+		(at 59.69 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73e17de7-8bab-4b54-91b0-7989774199e2")
 	)
 	(junction
 		(at 102.87 20.32)
@@ -4489,6 +4498,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82148f9e-3e74-475d-84d6-dbd7c3e30f21")
+	)
+	(junction
+		(at 69.85 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85edbbcf-9ea2-42cd-ab0e-3adb82870c55")
 	)
 	(junction
 		(at 41.91 38.1)
@@ -4525,6 +4540,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aab91ec1-cf02-4c4a-ad34-258235d5a18e")
+	)
+	(junction
+		(at 86.36 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac143133-6642-4886-b9be-f8e027111770")
 	)
 	(junction
 		(at 168.91 45.72)
@@ -4593,7 +4614,7 @@
 		(uuid "eec6cb5b-2477-4f12-88d9-8e455643c7b8")
 	)
 	(junction
-		(at 57.15 30.48)
+		(at 52.07 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eece5b64-7f33-49f8-8faf-2a96f14961ea")
@@ -4638,7 +4659,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 33.02) (xy 73.66 30.48)
+			(xy 86.36 20.32) (xy 86.36 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b3502f2-e305-41f8-bb06-4efdb3b7764d")
+	)
+	(wire
+		(pts
+			(xy 73.66 17.78) (xy 73.66 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4695,6 +4726,16 @@
 			(type default)
 		)
 		(uuid "0f36e843-cf2f-4f4f-b7d3-57333caa1dc3")
+	)
+	(wire
+		(pts
+			(xy 86.36 20.32) (xy 92.71 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1039ee1f-742d-461a-a157-c6bcadbe79d5")
 	)
 	(wire
 		(pts
@@ -4795,6 +4836,16 @@
 			(type default)
 		)
 		(uuid "203d3ea1-09bb-4ee0-9a16-4b63613dcb41")
+	)
+	(wire
+		(pts
+			(xy 59.69 17.78) (xy 52.07 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "220db665-4d98-4bcb-a80d-eaedd5536081")
 	)
 	(wire
 		(pts
@@ -5035,6 +5086,16 @@
 			(type default)
 		)
 		(uuid "494ec0f4-2266-4070-bb6e-658c2c3a7956")
+	)
+	(wire
+		(pts
+			(xy 69.85 25.4) (xy 69.85 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49501551-c55a-49b9-8292-5dc2a9cae082")
 	)
 	(wire
 		(pts
@@ -5468,16 +5529,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 30.48) (xy 64.77 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e22c6db-e620-4bf6-ba91-f29adfea33f6")
-	)
-	(wire
-		(pts
 			(xy 92.71 168.91) (xy 100.33 168.91)
 		)
 		(stroke
@@ -5678,7 +5729,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 30.48) (xy 64.77 30.48)
+			(xy 52.07 27.94) (xy 59.69 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5688,7 +5739,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 25.4) (xy 64.77 20.32)
+			(xy 69.85 17.78) (xy 69.85 20.32)
 		)
 		(stroke
 			(width 0)
@@ -5718,17 +5769,37 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 30.48) (xy 81.28 31.75)
+			(xy 59.69 26.67) (xy 59.69 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7799d6c-2218-43e3-827e-f733a7602efa")
+		(uuid "c63fa0c0-d450-4fec-83eb-01199c7e59a6")
 	)
 	(wire
 		(pts
-			(xy 64.77 20.32) (xy 57.15 20.32)
+			(xy 59.69 17.78) (xy 59.69 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb9083d5-5e6d-4fa0-be13-dce81522a8c0")
+	)
+	(wire
+		(pts
+			(xy 69.85 17.78) (xy 73.66 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbcd404a-1407-4ddd-88c1-2429f24e480c")
+	)
+	(wire
+		(pts
+			(xy 59.69 17.78) (xy 69.85 17.78)
 		)
 		(stroke
 			(width 0)
@@ -5888,6 +5959,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 27.94) (xy 69.85 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebb2319c-5051-481a-900d-301925f0f118")
+	)
+	(wire
+		(pts
 			(xy 179.07 54.61) (xy 179.07 55.88)
 		)
 		(stroke
@@ -5918,7 +5999,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 30.48) (xy 57.15 31.75)
+			(xy 52.07 27.94) (xy 52.07 29.21)
 		)
 		(stroke
 			(width 0)
@@ -7102,7 +7183,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 57.15 31.75 0)
+		(at 52.07 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7111,7 +7192,7 @@
 		(fields_autoplaced yes)
 		(uuid "37bf68eb-afe6-49cc-ac6f-e7d1dfad5995")
 		(property "Reference" "#PWR05"
-			(at 57.15 38.1 0)
+			(at 52.07 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7120,7 +7201,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 36.83 0)
+			(at 52.07 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7128,7 +7209,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 31.75 0)
+			(at 52.07 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7137,7 +7218,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 31.75 0)
+			(at 52.07 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7146,7 +7227,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 31.75 0)
+			(at 52.07 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7390,7 +7471,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:CR2032-BS-2-1")
-		(at 57.15 25.4 270)
+		(at 52.07 22.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7398,7 +7479,7 @@
 		(dnp no)
 		(uuid "40b1999d-58ac-4a86-b119-a89e919eeb92")
 		(property "Reference" "B1"
-			(at 51.054 24.13 90)
+			(at 45.974 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7406,8 +7487,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CR2032-BS-2-1"
-			(at 36.576 26.67 90)
+		(property "Value" "CR2032"
+			(at 40.64 23.876 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7416,7 +7497,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:BAT-TH_BS-2-1"
-			(at 49.53 25.4 0)
+			(at 44.45 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7425,7 +7506,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Battery-Holders-Clips-Contacts_CR2032battery_C70376.html"
-			(at 46.99 25.4 0)
+			(at 41.91 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7433,8 +7514,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 57.15 25.4 0)
+		(property "Description" "CR2032-BS-2-1"
+			(at 52.07 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7443,7 +7524,7 @@
 			)
 		)
 		(property "LCSC Part" "C70376"
-			(at 44.45 25.4 0)
+			(at 39.37 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8195,6 +8276,84 @@
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 59.69 22.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d1b2602-53bc-4d27-b0fe-2cc4147e2f6f")
+		(property "Reference" "D3"
+			(at 57.15 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603ESDA-05N"
+			(at 57.15 21.5901 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 59.69 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 59.69 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C316054"
+			(at 46.99 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08775066-3224-48c8-b315-809ad1cb367e")
+		)
+		(pin "2"
+			(uuid "c448093f-5319-4600-a2e0-072523528bee")
+		)
+		(instances
+			(project "freyja-gcs-pcb"
+				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -9417,16 +9576,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 64.77 27.94 0)
+		(at 69.85 22.86 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b4f7017d-351b-4d0f-a4df-acd3a6a431dc")
 		(property "Reference" "C6"
-			(at 67.31 26.6762 0)
+			(at 67.31 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9435,7 +9594,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 67.31 29.2162 0)
+			(at 67.31 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9444,7 +9603,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 27.94 0)
+			(at 69.85 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9453,7 +9612,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 27.94 0)
+			(at 69.85 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9462,7 +9621,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 64.77 27.94 0)
+			(at 69.85 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10160,72 +10319,6 @@
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 81.28 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e595ebe3-33da-4932-b23e-cf19f011a0b3")
-		(property "Reference" "#PWR03"
-			(at 81.28 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 81.28 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 81.28 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1cc8f3b8-9fae-4734-a23c-fd8fcd55ba92")
-		)
-		(instances
-			(project ""
-				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
