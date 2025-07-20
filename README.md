@@ -30,9 +30,9 @@ kicad + the plugin [impartGUI](https://github.com/Steffen-W/Import-LIB-KiCad-Plu
 - [x] battery charging circuit
   - [x] undervoltage lockout
 - raspberry pi power
-- 2 can ports
-  - one for brage 
-  - one for connecting directly to 
+- [x] 2 can ports
+  - [x] one for brage 
+  - [x] one for connecting directly to launchpad
 - [x] short circuit protection
 - [x] fan connector
 - [x] battery ntc work up to 70deg
