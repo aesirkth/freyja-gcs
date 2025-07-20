@@ -19,7 +19,7 @@ kicad + the plugin [impartGUI](https://github.com/Steffen-W/Import-LIB-KiCad-Plu
 - 10n cap on every switch for manual debounce, will do in software as well
 - lockout switch or key
 - initiate countdown button
-- 7-segment (or ssd1306 oled?) countdown for redundancy operation without rpi
+- [x] 7-segment for redundancy operation without rpi
 - abort countdown button
 - leds:
   - HOT/READY led indicator
@@ -27,7 +27,6 @@ kicad + the plugin [impartGUI](https://github.com/Steffen-W/Import-LIB-KiCad-Plu
   - connection status with surtr
   - connection status with fjaelar
   - alarm
-- eeprom or sd card for saving telemetry
 - [x] battery charging circuit
   - [x] undervoltage lockout
 - raspberry pi power
