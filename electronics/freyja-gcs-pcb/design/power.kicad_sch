@@ -6835,10 +6835,10 @@
 		)
 		(uuid "df6aa77f-79a8-47b2-9eb4-9fb53f9a6589")
 	)
-	(text_box "Place NTC between batteries"
+	(text_box "Place NTC between batteries\n\nStops charging when temp below 0°C or above 69°C"
 		(exclude_from_sim no)
-		(at 36.83 177.8 0)
-		(size -12.7 7.62)
+		(at 19.05 177.8 0)
+		(size 22.86 13.97)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -6851,7 +6851,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right top)
+			(justify left top)
 		)
 		(uuid "81861e68-28eb-4027-8752-1b4aa737aa3d")
 	)
@@ -8869,6 +8869,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 154.94) (xy 30.48 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aee0044-982f-42a8-9991-5f05098f4b9d")
+	)
+	(wire
+		(pts
 			(xy 66.04 237.49) (xy 64.77 237.49)
 		)
 		(stroke
@@ -10689,6 +10699,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 153.67) (xy 30.48 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1dad914-0878-4e04-bd9e-886369730df9")
+	)
+	(wire
+		(pts
 			(xy 227.33 215.9) (xy 228.6 215.9)
 		)
 		(stroke
@@ -10796,16 +10816,6 @@
 			(type default)
 		)
 		(uuid "a5b14cb5-2b6d-4968-8757-9130683140ad")
-	)
-	(wire
-		(pts
-			(xy 30.48 154.94) (xy 31.75 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5cad3ff-3e98-486d-98f8-e068a5b7109c")
 	)
 	(wire
 		(pts
@@ -11469,6 +11479,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 166.37) (xy 30.48 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb22ebc9-2e4b-4bb9-b397-f0dc393304a8")
+	)
+	(wire
+		(pts
 			(xy 234.95 113.03) (xy 245.11 113.03)
 		)
 		(stroke
@@ -11569,6 +11589,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 153.67) (xy 58.42 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf292f7d-1134-47d3-949b-b45637d8c99e")
+	)
+	(wire
+		(pts
 			(xy 302.26 168.91) (xy 303.53 167.64)
 		)
 		(stroke
@@ -11606,26 +11636,6 @@
 			(type default)
 		)
 		(uuid "d255f11c-05e4-4390-87b8-2ee785829905")
-	)
-	(wire
-		(pts
-			(xy 30.48 154.94) (xy 30.48 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2ef117d-9bde-4f58-8ddc-b708368f4207")
-	)
-	(wire
-		(pts
-			(xy 31.75 153.67) (xy 58.42 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2f562e0-2f8f-433f-a07a-fecb5b1177b6")
 	)
 	(wire
 		(pts
@@ -12336,6 +12346,216 @@
 			)
 		)
 		(column_widths 7.62)
+		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 0)
+		(cells
+			(table_cell "5V"
+				(exclude_from_sim no)
+				(at 382.27 48.26 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "64906bb4-755a-402d-b3d2-be517ee0e81f")
+			)
+			(table_cell "5V"
+				(exclude_from_sim no)
+				(at 382.27 50.8 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "2a263f97-5e0f-41dc-a75f-87f35a4dabb7")
+			)
+			(table_cell "GND"
+				(exclude_from_sim no)
+				(at 382.27 53.34 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "77287740-f126-4db2-9d59-036342aba1f3")
+			)
+			(table_cell "GND"
+				(exclude_from_sim no)
+				(at 382.27 55.88 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "eebbccbf-aa95-4cb8-8360-d069755ea177")
+			)
+			(table_cell "12V"
+				(exclude_from_sim no)
+				(at 382.27 58.42 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "03904738-835e-4f25-bf34-ec0344ae8968")
+			)
+			(table_cell "12V"
+				(exclude_from_sim no)
+				(at 382.27 60.96 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "76bd2369-7bf4-4ac9-aacf-f1b84630fafb")
+			)
+			(table_cell "NC"
+				(exclude_from_sim no)
+				(at 382.27 63.5 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "0f97a994-e5d6-4215-9f88-fc6539b8dd6b")
+			)
+			(table_cell "ADJ"
+				(exclude_from_sim no)
+				(at 382.27 66.04 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "6948a567-554f-4a87-a078-fedabb918de0")
+			)
+			(table_cell "GND"
+				(exclude_from_sim no)
+				(at 382.27 68.58 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "18a4e0ab-8fc0-42aa-8607-b7f66ed21bb8")
+			)
+			(table_cell "GND"
+				(exclude_from_sim no)
+				(at 382.27 71.12 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c78a9839-d09e-42b2-9d4d-1834a444e474")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 382.27 73.66 0)
+				(size 7.62 0)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "464851da-a702-4bce-97bf-ea5240b6dcde")
+			)
+		)
+	)
+	(table
+		(column_count 1)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 7.62)
 		(row_heights 2.54 2.54 2.54 2.54)
 		(cells
 			(table_cell "ILMT:"
@@ -12678,216 +12898,6 @@
 					(justify left top)
 				)
 				(uuid "d9a23daa-183e-472f-a458-599ac372e0a6")
-			)
-		)
-	)
-	(table
-		(column_count 1)
-		(border
-			(external yes)
-			(header yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(separators
-			(rows yes)
-			(cols yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(column_widths 7.62)
-		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 0)
-		(cells
-			(table_cell "5V"
-				(exclude_from_sim no)
-				(at 382.27 48.26 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "64906bb4-755a-402d-b3d2-be517ee0e81f")
-			)
-			(table_cell "5V"
-				(exclude_from_sim no)
-				(at 382.27 50.8 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "2a263f97-5e0f-41dc-a75f-87f35a4dabb7")
-			)
-			(table_cell "GND"
-				(exclude_from_sim no)
-				(at 382.27 53.34 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "77287740-f126-4db2-9d59-036342aba1f3")
-			)
-			(table_cell "GND"
-				(exclude_from_sim no)
-				(at 382.27 55.88 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "eebbccbf-aa95-4cb8-8360-d069755ea177")
-			)
-			(table_cell "12V"
-				(exclude_from_sim no)
-				(at 382.27 58.42 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "03904738-835e-4f25-bf34-ec0344ae8968")
-			)
-			(table_cell "12V"
-				(exclude_from_sim no)
-				(at 382.27 60.96 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "76bd2369-7bf4-4ac9-aacf-f1b84630fafb")
-			)
-			(table_cell "NC"
-				(exclude_from_sim no)
-				(at 382.27 63.5 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "0f97a994-e5d6-4215-9f88-fc6539b8dd6b")
-			)
-			(table_cell "ADJ"
-				(exclude_from_sim no)
-				(at 382.27 66.04 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "6948a567-554f-4a87-a078-fedabb918de0")
-			)
-			(table_cell "GND"
-				(exclude_from_sim no)
-				(at 382.27 68.58 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "18a4e0ab-8fc0-42aa-8607-b7f66ed21bb8")
-			)
-			(table_cell "GND"
-				(exclude_from_sim no)
-				(at 382.27 71.12 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "c78a9839-d09e-42b2-9d4d-1834a444e474")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 382.27 73.66 0)
-				(size 7.62 0)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "464851da-a702-4bce-97bf-ea5240b6dcde")
 			)
 		)
 	)
@@ -14354,6 +14364,74 @@
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/c65c6484-459d-48da-abd0-c2a58ebde1bb"
 					(reference "BT4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 35.56 153.67 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35a1c4e0-4abd-44a1-bfa6-7e7481fad02f")
+		(property "Reference" "R40"
+			(at 35.56 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "560"
+			(at 35.56 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 151.892 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 35.56 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e766bdaa-ef32-4f96-a3dd-08c81b663426")
+		)
+		(pin "2"
+			(uuid "66c4b11a-0b2e-4819-b200-82f8405b4a6a")
+		)
+		(instances
+			(project "freyja-gcs-pcb"
+				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/c65c6484-459d-48da-abd0-c2a58ebde1bb"
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -18295,6 +18373,76 @@
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/c65c6484-459d-48da-abd0-c2a58ebde1bb"
 					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 30.48 162.56 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86afe068-c41b-411a-94db-dcf8b7435e3b")
+		(property "Reference" "R41"
+			(at 27.94 163.8301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "390"
+			(at 27.94 161.2901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 28.702 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 30.48 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08c00375-e155-4666-a779-6b233a021783")
+		)
+		(pin "2"
+			(uuid "3afa77a5-53ce-4e00-ae08-66830ecc1cf8")
+		)
+		(instances
+			(project "freyja-gcs-pcb"
+				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/c65c6484-459d-48da-abd0-c2a58ebde1bb"
+					(reference "R41")
 					(unit 1)
 				)
 			)

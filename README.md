@@ -37,7 +37,7 @@ kicad + the plugin [impartGUI](https://github.com/Steffen-W/Import-LIB-KiCad-Plu
 - buzzer? for alarms
 - [x] short circuit protection
 - [x] fan connector
-- battery ntc work up to 70deg
+- [x] battery ntc work up to 70deg
 - [x] led backlight driver
 
 ## Components selection 
