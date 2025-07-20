@@ -1148,6 +1148,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "EasyEDA:GT-USB-7010ASV"
+			(pin_numbers
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4625,16 +4628,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 40.64) (xy 60.96 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "091e7f8c-e564-430e-aa74-60d233e34ebc")
-	)
-	(wire
-		(pts
 			(xy 92.71 27.94) (xy 92.71 29.21)
 		)
 		(stroke
@@ -4782,6 +4775,16 @@
 			(type default)
 		)
 		(uuid "1fbbc255-135b-42f5-bc3d-1d02d2a85385")
+	)
+	(wire
+		(pts
+			(xy 59.69 40.64) (xy 60.96 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "203388c1-be07-41fe-9fa3-dd86055ee352")
 	)
 	(wire
 		(pts
@@ -6203,16 +6206,6 @@
 		)
 		(uuid "a2067aeb-0882-4ab6-9a1d-78fdaad71d48")
 	)
-	(label "NRST"
-		(at 55.88 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bffcaefa-9182-4e9b-b5b8-fdaf1b40c890")
-	)
 	(label "FDCAN1_TX(boot)"
 		(at 224.79 27.94 180)
 		(effects
@@ -6281,6 +6274,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NRST"
+		(shape output)
+		(at 59.69 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "202e583d-09ed-4730-a457-561dde70a596")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.9272 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)

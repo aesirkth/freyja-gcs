@@ -1757,12 +1757,6 @@
 		(uuid "320040a6-7eff-4f31-98f8-c089cd494c82")
 	)
 	(junction
-		(at 163.83 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32666cf0-1cc0-4781-ad4d-7821e761c080")
-	)
-	(junction
 		(at 138.43 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1900,16 +1894,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 71.12) (xy 144.78 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00889b29-ccfa-4d6d-90ae-52ea460666d9")
-	)
-	(wire
-		(pts
 			(xy 90.17 92.71) (xy 90.17 107.95)
 		)
 		(stroke
@@ -2017,16 +2001,6 @@
 			(type default)
 		)
 		(uuid "151f276a-d948-4147-ae30-847991ecc0d7")
-	)
-	(wire
-		(pts
-			(xy 163.83 71.12) (xy 163.83 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "199c85c0-1006-4d03-8c99-5072dcfea611")
 	)
 	(wire
 		(pts
@@ -2310,7 +2284,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 60.96) (xy 163.83 71.12)
+			(xy 163.83 60.96) (xy 163.83 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2517,16 +2491,6 @@
 			(type default)
 		)
 		(uuid "5b322c0a-22c8-4510-9f0f-79fc61c6087a")
-	)
-	(wire
-		(pts
-			(xy 163.83 71.12) (xy 162.56 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b4f7eef-9776-4a4a-a459-4e6cb47e269e")
 	)
 	(wire
 		(pts
@@ -3540,7 +3504,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 71.12) (xy 144.78 72.39)
+			(xy 144.78 58.42) (xy 144.78 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3677,6 +3641,28 @@
 			(type default)
 		)
 		(uuid "feb64797-5389-4749-99b0-cae15039a774")
+	)
+	(global_label "NRST"
+		(shape input)
+		(at 144.78 58.42 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2bc377d1-1579-44b0-a81f-04668a1e9ecc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.78 50.6572 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "7SEG_DA"
 		(shape input)
@@ -5800,76 +5786,6 @@
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/824ebaf0-8cb2-47d2-898f-7e11886db031"
 					(reference "C41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 158.75 71.12 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c1463f80-6e54-40be-a091-190fbd8a0ed1")
-		(property "Reference" "R52"
-			(at 160.0201 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 157.4801 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 69.342 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 158.75 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "27ce38d0-d239-4daf-8ada-8fd4ff59c0dd")
-		)
-		(pin "1"
-			(uuid "6f5e0201-5ba6-4a62-8c86-61d207b07579")
-		)
-		(instances
-			(project "freyja-gcs-pcb"
-				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/824ebaf0-8cb2-47d2-898f-7e11886db031"
-					(reference "R52")
 					(unit 1)
 				)
 			)

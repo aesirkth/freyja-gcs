@@ -2704,6 +2704,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "EasyEDA:GT-USB-7010ASV"
+			(pin_numbers
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -16255,7 +16258,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 96.52 50.7999 0)
 			(effects
 				(font
@@ -18925,7 +18928,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 247.65 189.2299 0)
 			(effects
 				(font
