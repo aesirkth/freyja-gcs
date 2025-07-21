@@ -15,18 +15,15 @@ kicad + the plugin [impartGUI](https://github.com/Steffen-W/Import-LIB-KiCad-Plu
 - Layout
 - configure stackup according to jlcpcb specs
 - usb 90 ohm diff-z
-- valve toggle switches
-- 10n cap on every switch for manual debounce, will do in software as well
-- lockout switch or key
-- initiate countdown button
+- [x] valve toggle switches
+- [x] arm keyrings
 - [x] 7-segment for redundancy operation without rpi
-- abort countdown button
 - leds:
-  - HOT/READY led indicator
-  - led for every valve toggle. should only be activated if surtr confirms position. 
-  - connection status with surtr
-  - connection status with fjaelar
-  - alarm
+  - [x] armed
+  - [x] led for every valve toggle. should only be activated if surtr confirms position. blink if state is unknown
+  - [x] connection status with surtr
+  - [x] connection status with fjaelar
+  - [x] fault
 - [x] battery charging circuit
   - [x] undervoltage lockout
 - raspberry pi power
