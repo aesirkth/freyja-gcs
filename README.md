@@ -26,7 +26,7 @@ kicad + the plugin [impartGUI](https://github.com/Steffen-W/Import-LIB-KiCad-Plu
   - [x] fault
 - [x] battery charging circuit
   - [x] undervoltage lockout
-- raspberry pi power
+- [x] raspberry pi power
 - [x] 2 can ports
   - [x] one for brage 
   - [x] one for connecting directly to launchpad
