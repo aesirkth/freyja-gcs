@@ -5864,18 +5864,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 180.34 104.14)
-		(end 278.13 160.02)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 4ccbddd2-fd93-4ee7-9424-5e614ffecd39)
-	)
 	(text "HS OSC"
 		(exclude_from_sim no)
 		(at 32.004 27.686 0)
@@ -5888,7 +5876,7 @@
 	)
 	(text "FDCAN"
 		(exclude_from_sim no)
-		(at 230.378 106.68 0)
+		(at 233.934 109.728 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10456,7 +10444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "052eff11-531f-44a3-af03-2d3e91a09885")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR026"
 			(at 198.12 140.97 0)
 			(effects
 				(font
@@ -10506,7 +10494,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR04")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -10522,7 +10510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "080f48fa-c996-4942-b7f5-143c8005b1c8")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR020"
 			(at 157.48 102.87 0)
 			(effects
 				(font
@@ -10572,7 +10560,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR0113")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -10588,7 +10576,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b010864-0561-4514-a5df-601d21c7085e")
-		(property "Reference" "D1"
+		(property "Reference" "D12"
 			(at 217.17 41.91 0)
 			(effects
 				(font
@@ -10651,7 +10639,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "D1")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -10668,7 +10656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d21564b-88d5-4eab-a5ff-a2171454c2f3")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR024"
 			(at 167.64 146.05 0)
 			(effects
 				(font
@@ -10718,7 +10706,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR0116")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -10734,7 +10722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e03251c-1d5d-4dee-8dc9-2856132bd02e")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR013"
 			(at 92.71 22.86 0)
 			(effects
 				(font
@@ -10784,7 +10772,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR01")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10878,7 +10866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14b7161d-e7dc-4578-bfa3-1577ba7d438f")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR036"
 			(at 274.32 156.21 0)
 			(effects
 				(font
@@ -10929,7 +10917,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR091")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -10944,7 +10932,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14c05689-ffab-4d4f-8ab7-1862306eb85a")
-		(property "Reference" "D57"
+		(property "Reference" "D10"
 			(at 163.83 134.62 0)
 			(effects
 				(font
@@ -11007,7 +10995,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "D57")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -11023,7 +11011,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17076d36-5126-4646-b2b2-5de1af31d566")
-		(property "Reference" "C48"
+		(property "Reference" "C15"
 			(at 163.8363 124.46 90)
 			(effects
 				(font
@@ -11084,7 +11072,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "C48")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -11101,7 +11089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a52dd13-2a5d-4963-83e7-380a8a7406d0")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR018"
 			(at 139.7 156.21 0)
 			(effects
 				(font
@@ -11151,7 +11139,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR0115")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -11168,7 +11156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b52cb3b-9fa3-4141-8a64-9ba7eaaf822d")
-		(property "Reference" "C9"
+		(property "Reference" "C18"
 			(at 207.01 40.6462 0)
 			(effects
 				(font
@@ -11222,7 +11210,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "C9")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -11238,7 +11226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c6f8409-e5ac-4236-9fa7-55de79f94144")
-		(property "Reference" "C45"
+		(property "Reference" "C12"
 			(at 163.8363 93.98 90)
 			(effects
 				(font
@@ -11299,7 +11287,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "C45")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -11314,7 +11302,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e9ba64d-0f4e-4978-96b7-0be618bccc8f")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR08"
 			(at 39.37 142.24 0)
 			(effects
 				(font
@@ -11365,7 +11353,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR017")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -11381,7 +11369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "280d8b16-fae4-4054-85f0-5227f6ba4942")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR01"
 			(at 17.78 50.8 0)
 			(effects
 				(font
@@ -11431,7 +11419,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR09")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -11448,7 +11436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2aeaf296-a6cc-4880-afab-a1d903170f72")
-		(property "Reference" "R1"
+		(property "Reference" "R9"
 			(at 196.85 29.2099 0)
 			(effects
 				(font
@@ -11502,7 +11490,7 @@
 		(instances
 			(project ""
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "R1")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -11518,7 +11506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d63e369-9d7d-4776-8d33-738bd0c4cf10")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR030"
 			(at 262.89 129.54 0)
 			(effects
 				(font
@@ -11569,7 +11557,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR084")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -11584,7 +11572,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34607422-bdd2-4044-aa75-163a3512d53b")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR05"
 			(at 48.26 152.4 0)
 			(effects
 				(font
@@ -11635,7 +11623,7 @@
 		(instances
 			(project ""
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR018")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -11651,7 +11639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37bf68eb-afe6-49cc-ac6f-e7d1dfad5995")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR09"
 			(at 52.07 35.56 0)
 			(effects
 				(font
@@ -11701,7 +11689,7 @@
 		(instances
 			(project ""
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR05")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -11716,7 +11704,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38dd1095-7ded-4958-846e-49e801946071")
-		(property "Reference" "D5"
+		(property "Reference" "D2"
 			(at 31.75 165.1 0)
 			(effects
 				(font
@@ -11779,7 +11767,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "D5")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -11795,7 +11783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38e132af-8859-4ebf-af7a-0dec5728fbf1")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR010"
 			(at 55.88 118.11 0)
 			(effects
 				(font
@@ -11845,7 +11833,7 @@
 		(instances
 			(project ""
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR015")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -11860,7 +11848,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39238bc6-35b1-478f-96ec-903d782cfa37")
-		(property "Reference" "D52"
+		(property "Reference" "D3"
 			(at 46.99 147.32 0)
 			(effects
 				(font
@@ -11923,7 +11911,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "D52")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -11938,7 +11926,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ad90c0d-f4cf-4a72-98bc-7bc739bcbadc")
-		(property "Reference" "D4"
+		(property "Reference" "D1"
 			(at 31.75 160.02 0)
 			(effects
 				(font
@@ -12001,7 +11989,7 @@
 		(instances
 			(project ""
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "D4")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -12018,7 +12006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "401dd30d-7de7-469f-826c-f62db6eff81b")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR021"
 			(at 157.48 156.21 0)
 			(effects
 				(font
@@ -12068,7 +12056,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR0114")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -12083,7 +12071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40b1999d-58ac-4a86-b119-a89e919eeb92")
-		(property "Reference" "BT5"
+		(property "Reference" "BT1"
 			(at 44.704 21.336 90)
 			(effects
 				(font
@@ -12146,7 +12134,7 @@
 		(instances
 			(project ""
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "BT5")
+					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -12162,7 +12150,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "410ceaf1-3988-4e9b-9caf-d6f2b31fd0b5")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR016"
 			(at 109.22 157.48 0)
 			(effects
 				(font
@@ -12213,7 +12201,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR019")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -12230,7 +12218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4400d7a1-4633-4472-a36c-bea712c523d3")
-		(property "Reference" "J8"
+		(property "Reference" "J4"
 			(at 269.24 124.4599 0)
 			(effects
 				(font
@@ -12305,7 +12293,7 @@
 		(instances
 			(project ""
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "J8")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -12321,7 +12309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "460623da-5a74-40e1-bdcd-166e0379dd97")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR014"
 			(at 92.71 35.56 0)
 			(effects
 				(font
@@ -12371,7 +12359,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR02")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -12387,7 +12375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "467b29c2-a9e4-4b8b-ab74-5f30541f3cef")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 83.4233 127 0)
 			(effects
 				(font
@@ -12628,7 +12616,7 @@
 		(instances
 			(project ""
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -12643,7 +12631,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49ed0148-6711-44ee-b456-3a59bc55cfa5")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR017"
 			(at 102.87 157.48 0)
 			(effects
 				(font
@@ -12693,7 +12681,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR020")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -12708,7 +12696,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52f4ed83-abb1-45db-884f-dde4d36d73f0")
-		(property "Reference" "D51"
+		(property "Reference" "D6"
 			(at 93.98 172.72 0)
 			(effects
 				(font
@@ -12771,7 +12759,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "D51")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -12782,12 +12770,12 @@
 		(at 232.41 123.19 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5701c1ab-6f41-427d-91b7-982e5afe999e")
-		(property "Reference" "R52"
+		(property "Reference" "R10"
 			(at 234.95 121.9199 0)
 			(effects
 				(font
@@ -12841,7 +12829,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "R52")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -12857,7 +12845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a9ccf4d-05ff-4a37-956b-15ad8d8cfd57")
-		(property "Reference" "C8"
+		(property "Reference" "C3"
 			(at 44.45 39.3762 0)
 			(effects
 				(font
@@ -12911,7 +12899,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "C8")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -12928,7 +12916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cc9c5de-742a-4ccf-a353-41e55fc306b1")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR029"
 			(at 252.73 127 0)
 			(effects
 				(font
@@ -12979,7 +12967,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR085")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -12995,7 +12983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e66980c-3beb-402f-88f7-d82cfc352022")
-		(property "Reference" "C11"
+		(property "Reference" "C2"
 			(at 33.02 102.8762 0)
 			(effects
 				(font
@@ -13049,7 +13037,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "C11")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -13064,7 +13052,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62db8fb1-bd34-45fb-b2a0-7c15c90cc362")
-		(property "Reference" "C7"
+		(property "Reference" "C1"
 			(at 17.78 35.052 0)
 			(effects
 				(font
@@ -13118,7 +13106,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "C7")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -13134,7 +13122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6662d094-47a1-427d-92c2-1d3c837c2878")
-		(property "Reference" "C44"
+		(property "Reference" "C17"
 			(at 191.77 129.5462 0)
 			(effects
 				(font
@@ -13188,7 +13176,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "C44")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -13204,7 +13192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d0825a6-ffd7-492d-a745-18c2c2898b23")
-		(property "Reference" "C5"
+		(property "Reference" "C11"
 			(at 135.89 22.8662 0)
 			(effects
 				(font
@@ -13258,7 +13246,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "C5")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -13273,7 +13261,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d1b2602-53bc-4d27-b0fe-2cc4147e2f6f")
-		(property "Reference" "D3"
+		(property "Reference" "D5"
 			(at 57.15 22.86 0)
 			(effects
 				(font
@@ -13336,7 +13324,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "D3")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -13352,7 +13340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d4da77b-f6a4-4870-9be5-312d77e0783d")
-		(property "Reference" "R4"
+		(property "Reference" "R1"
 			(at 31.75 151.13 90)
 			(effects
 				(font
@@ -13404,7 +13392,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "R4")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -13421,7 +13409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dae0dac-a714-47c5-9d8c-241b655fb28a")
-		(property "Reference" "J9"
+		(property "Reference" "J5"
 			(at 269.24 146.0499 0)
 			(effects
 				(font
@@ -13496,7 +13484,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "J9")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -13512,7 +13500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f225f73-d1d4-4f07-93a6-18027721c119")
-		(property "Reference" "C12"
+		(property "Reference" "C4"
 			(at 45.72 102.8762 0)
 			(effects
 				(font
@@ -13566,7 +13554,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "C12")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -13581,7 +13569,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f70ff49-61f2-47b4-83c9-c27166259d05")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR07"
 			(at 38.1 185.42 0)
 			(effects
 				(font
@@ -13631,7 +13619,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR023")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -13647,7 +13635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7054f27d-01ac-4a8d-a97b-59621be23f20")
-		(property "Reference" "C3"
+		(property "Reference" "C9"
 			(at 115.57 22.8662 0)
 			(effects
 				(font
@@ -13701,7 +13689,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "C3")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -13716,7 +13704,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "795a9cbd-9ddd-4ed0-9413-568d4b6170ed")
-		(property "Reference" "R74"
+		(property "Reference" "R3"
 			(at 113.0299 152.4 0)
 			(effects
 				(font
@@ -13770,7 +13758,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "R74")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -13786,7 +13774,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7bb7dba2-e469-4591-a894-7930bb4e7b78")
-		(property "Reference" "D2"
+		(property "Reference" "D11"
 			(at 185.42 43.18 0)
 			(effects
 				(font
@@ -13849,7 +13837,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "D2")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -13865,7 +13853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cb284e0-d79b-4ead-a7ef-d19f5c6db125")
-		(property "Reference" "C46"
+		(property "Reference" "C13"
 			(at 163.8363 104.14 90)
 			(effects
 				(font
@@ -13926,7 +13914,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "C46")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -13942,7 +13930,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "809f91af-762b-4304-b80e-284af81612cf")
-		(property "Reference" "R78"
+		(property "Reference" "R7"
 			(at 156.21 180.086 90)
 			(effects
 				(font
@@ -13997,7 +13985,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "R78")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -14013,7 +14001,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "818d337d-25db-4492-9d37-181c1a01fd7d")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 209.55 112.522 0)
 			(effects
 				(font
@@ -14092,7 +14080,7 @@
 		(instances
 			(project ""
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -14108,7 +14096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81fbc4f1-c70a-4303-b8b9-6b6177b8046e")
-		(property "Reference" "C1"
+		(property "Reference" "C7"
 			(at 95.25 22.8662 0)
 			(effects
 				(font
@@ -14162,7 +14150,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "C1")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -14256,7 +14244,7 @@
 		(at 151.13 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "86c36db0-5365-4141-9721-3cae422e1413")
@@ -14337,7 +14325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93815469-1289-4279-978c-0e718ff2e8e2")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR034"
 			(at 274.32 134.62 0)
 			(effects
 				(font
@@ -14388,7 +14376,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR08")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -14404,7 +14392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97c6e1f4-5daa-4f91-8799-af3f3433a6c7")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR012"
 			(at 80.01 135.89 0)
 			(effects
 				(font
@@ -14454,7 +14442,7 @@
 		(instances
 			(project ""
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR016")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -14471,7 +14459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a4d3229-93a4-465b-8ecb-2ab00c100bf0")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR022"
 			(at 167.64 29.21 0)
 			(effects
 				(font
@@ -14521,7 +14509,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR07")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -14608,7 +14596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a9acd1a-e410-43b5-80b9-accec9fce687")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 64.77 142.24 0)
 			(effects
 				(font
@@ -14711,7 +14699,7 @@
 		(instances
 			(project ""
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -14727,7 +14715,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b3c001b-beb0-426b-ace8-5fdc9ec944fd")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 123.825 149.86 0)
 			(effects
 				(font
@@ -14803,7 +14791,7 @@
 		(instances
 			(project ""
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -14820,7 +14808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a090a330-bed2-42de-bedb-17d1bd39cbcc")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR031"
 			(at 252.73 148.59 0)
 			(effects
 				(font
@@ -14871,7 +14859,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR088")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -14886,7 +14874,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2f42702-000c-42dd-ad83-d8daec216ede")
-		(property "Reference" "D55"
+		(property "Reference" "D8"
 			(at 104.14 172.72 0)
 			(effects
 				(font
@@ -14949,7 +14937,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "D55")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -14964,7 +14952,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a36f980a-f363-47b6-bb4c-045f9d29d6e4")
-		(property "Reference" "D54"
+		(property "Reference" "D7"
 			(at 99.06 172.72 0)
 			(effects
 				(font
@@ -15027,7 +15015,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "D54")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -15043,7 +15031,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3b8bb1e-701e-41da-851c-5d0379510aba")
-		(property "Reference" "R77"
+		(property "Reference" "R6"
 			(at 151.13 180.086 90)
 			(effects
 				(font
@@ -15098,7 +15086,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "R77")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -15114,7 +15102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5ca515b-99bd-4347-9ec7-29fc320c194c")
-		(property "Reference" "C47"
+		(property "Reference" "C14"
 			(at 163.8363 114.3 90)
 			(effects
 				(font
@@ -15175,7 +15163,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "C47")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -15191,7 +15179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a695b86a-313d-4e92-b637-33eb58957815")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR04"
 			(at 41.91 50.8 0)
 			(effects
 				(font
@@ -15241,7 +15229,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR010")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -15257,7 +15245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9c7be68-3f4e-4b10-8dc9-308f97015e73")
-		(property "Reference" "J10"
+		(property "Reference" "J3"
 			(at 148.59 93.98 0)
 			(effects
 				(font
@@ -15432,7 +15420,7 @@
 		(instances
 			(project ""
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "J10")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -15449,7 +15437,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa9ce923-27de-49f9-a1eb-3aeb622cdc2e")
-		(property "Reference" "R2"
+		(property "Reference" "R8"
 			(at 165.1 41.9099 0)
 			(effects
 				(font
@@ -15503,7 +15491,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "R2")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -15519,7 +15507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abd58c51-d380-4d17-bc82-a4ca5a79a457")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR03"
 			(at 36.83 114.3 0)
 			(effects
 				(font
@@ -15569,7 +15557,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR014")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -15580,7 +15568,7 @@
 		(at 156.21 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "adb72188-b71c-47a4-9837-dd4bf056da67")
@@ -15731,7 +15719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b810bddc-f69f-49d0-91bc-d6f8fb47192a")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR019"
 			(at 140.97 190.5 0)
 			(effects
 				(font
@@ -15781,7 +15769,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR0117")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -15798,7 +15786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4fa45a1-105e-4eb2-a030-8e6f6ae1ceb5")
-		(property "Reference" "C10"
+		(property "Reference" "C16"
 			(at 175.26 41.9162 0)
 			(effects
 				(font
@@ -15852,7 +15840,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "C10")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -15869,7 +15857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6752bc2-f621-487c-9eb9-10c162fe8e5a")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR028"
 			(at 199.39 55.88 0)
 			(effects
 				(font
@@ -15919,7 +15907,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR011")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -15935,7 +15923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8160423-440b-4f40-8f68-7da9744bbb42")
-		(property "Reference" "C4"
+		(property "Reference" "C10"
 			(at 125.73 22.8662 0)
 			(effects
 				(font
@@ -15989,7 +15977,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "C4")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -16004,7 +15992,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9aa352d-df09-4ab4-ab57-d241a0ca677d")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR015"
 			(at 104.14 185.42 0)
 			(effects
 				(font
@@ -16054,7 +16042,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR0112")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -16142,7 +16130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc3cef1a-4984-4868-b7d7-d93e1d55fa85")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR033"
 			(at 274.32 116.84 0)
 			(effects
 				(font
@@ -16193,7 +16181,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR083")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -16210,7 +16198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc510ab0-be33-4fdd-ad96-12a886226c1d")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR023"
 			(at 167.64 55.88 0)
 			(effects
 				(font
@@ -16260,7 +16248,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR012")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -16275,7 +16263,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd51f41c-9fff-4cf3-bb6d-40817e6377f8")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR06"
 			(at 48.26 175.26 0)
 			(effects
 				(font
@@ -16326,7 +16314,7 @@
 		(instances
 			(project ""
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR021")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -16337,7 +16325,7 @@
 		(at 146.05 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "cdf6f5c8-94d8-4642-ad7a-35fd1ef89d20")
@@ -16418,7 +16406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0d130d8-6643-4ae6-bd4e-b28e70f1fa9d")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR027"
 			(at 199.39 29.21 0)
 			(effects
 				(font
@@ -16468,7 +16456,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR06")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -16483,7 +16471,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d463e838-a485-45e9-8ca0-23230ec9aea8")
-		(property "Reference" "D56"
+		(property "Reference" "D9"
 			(at 109.22 172.72 0)
 			(effects
 				(font
@@ -16546,7 +16534,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "D56")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -16561,7 +16549,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d554ef0d-c8a3-49a0-bb8a-71ec9ff6050a")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR02"
 			(at 26.67 182.88 0)
 			(effects
 				(font
@@ -16612,7 +16600,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR022")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -16628,7 +16616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7406a76-c105-4ca5-a713-d896f362fa19")
-		(property "Reference" "C13"
+		(property "Reference" "C5"
 			(at 58.42 106.6862 0)
 			(effects
 				(font
@@ -16682,7 +16670,7 @@
 		(instances
 			(project ""
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "C13")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -16698,7 +16686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7ea6e33-32cc-48b1-a510-8adcd6f9aa9a")
-		(property "Reference" "C2"
+		(property "Reference" "C8"
 			(at 105.41 22.8662 0)
 			(effects
 				(font
@@ -16752,7 +16740,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "C2")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -16768,7 +16756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e682aff4-cf91-44eb-9061-9c77c01b73f3")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR032"
 			(at 262.89 151.13 0)
 			(effects
 				(font
@@ -16819,7 +16807,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR089")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -16834,7 +16822,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9842b75-b0e1-4d18-9726-6cf5d2a10761")
-		(property "Reference" "D53"
+		(property "Reference" "D4"
 			(at 46.99 180.34 0)
 			(effects
 				(font
@@ -16897,7 +16885,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "D53")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -16913,7 +16901,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb79819a-ab9b-4e59-b901-96a601e84d40")
-		(property "Reference" "R75"
+		(property "Reference" "R4"
 			(at 140.97 180.086 90)
 			(effects
 				(font
@@ -16967,7 +16955,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "R75")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -16983,7 +16971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed1289d1-03a9-484c-8d4d-1b20617c1320")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR011"
 			(at 76.2 186.69 0)
 			(effects
 				(font
@@ -17033,7 +17021,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR024")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -17044,7 +17032,7 @@
 		(at 140.97 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ed33b908-b128-4c23-95c8-b236d076844f")
@@ -17124,7 +17112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0391807-5581-4426-8157-c6f3150fd55a")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR025"
 			(at 194.31 120.65 0)
 			(effects
 				(font
@@ -17174,7 +17162,7 @@
 		(instances
 			(project ""
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR03")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -17189,7 +17177,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7cc1065-fb22-4881-8b9b-7a6f7009e121")
-		(property "Reference" "R5"
+		(property "Reference" "R2"
 			(at 31.75 175.514 90)
 			(effects
 				(font
@@ -17241,7 +17229,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "R5")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -17257,7 +17245,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbad920b-3a21-415e-a1f8-f06e4c3efd72")
-		(property "Reference" "R76"
+		(property "Reference" "R5"
 			(at 146.05 180.086 90)
 			(effects
 				(font
@@ -17312,7 +17300,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "R76")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -17329,7 +17317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc1419de-8f7a-4255-a6a2-a9a3cb656afb")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR035"
 			(at 274.32 138.43 0)
 			(effects
 				(font
@@ -17380,7 +17368,7 @@
 		(instances
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR087")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
