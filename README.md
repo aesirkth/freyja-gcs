@@ -11,7 +11,7 @@ freyja ground control station. talks with launchpad controller surtr over lora t
 kicad + the plugin [impartGUI](https://github.com/Steffen-W/Import-LIB-KiCad-Plugin). impartGUI makes it really easy to get symbols and footprints downloaded directly from lcsc.
 
 ## TODO PCB
-- ESD/TVS diodes on every connecter and button
+- [x] ESD/TVS diodes on every connecter and button
 - Layout
 - configure stackup according to jlcpcb specs
 - usb 90 ohm diff-z
