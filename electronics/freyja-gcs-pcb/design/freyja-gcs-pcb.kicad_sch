@@ -13,23 +13,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 10.16 0)
+			(property "Reference" "J2"
+				(at 0.635 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x07_Pin"
-				(at 0 -10.16 0)
+			(property "Value" "JST SR"
+				(at 0.635 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -48,6 +48,15 @@
 				)
 			)
 			(property "Description" "Generic connector, single row, 01x07, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C160392"
 				(at 0 0 0)
 				(effects
 					(font
@@ -355,14 +364,14 @@
 				(pin passive line
 					(at 5.08 -7.62 180)
 					(length 3.81)
-					(name "Pin_7"
+					(name "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -15049,7 +15058,7 @@
 		(pin "4"
 			(uuid "33f6252d-e9c1-4ca9-8c98-521b88aea8ee")
 		)
-		(pin "7"
+		(pin "MP"
 			(uuid "c81ba643-8d10-4cd5-807b-1f706e1097b6")
 		)
 		(pin "3"

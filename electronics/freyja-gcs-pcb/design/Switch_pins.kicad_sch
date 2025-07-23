@@ -13239,7 +13239,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EasyEDA:CONN-TH_XT60PB-M"
+		(property "Footprint" "EasyEDA:CONN-TH_XT60PB-F.G.Y"
 			(at 101.6 139.7 0)
 			(effects
 				(font
