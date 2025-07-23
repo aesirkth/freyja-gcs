@@ -13137,7 +13137,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 130.302 212.09 90)
 			(effects
 				(font
@@ -13156,6 +13156,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 132.08 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2907032"
 			(at 132.08 212.09 0)
 			(effects
 				(font
@@ -13207,7 +13216,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 287.528 223.52 90)
 			(effects
 				(font
@@ -13226,6 +13235,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 285.75 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2906992"
 			(at 285.75 223.52 0)
 			(effects
 				(font
@@ -13501,7 +13519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 234.95 106.68 0)
 			(effects
 				(font
@@ -13520,6 +13538,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 234.95 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C913904"
 			(at 234.95 106.68 0)
 			(effects
 				(font
@@ -13636,7 +13663,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 277.368 223.52 90)
 			(effects
 				(font
@@ -13655,6 +13682,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 275.59 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25803"
 			(at 275.59 223.52 0)
 			(effects
 				(font
@@ -13784,7 +13820,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 358.902 168.91 90)
 			(effects
 				(font
@@ -13803,6 +13839,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 360.68 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22775"
 			(at 360.68 168.91 0)
 			(effects
 				(font
@@ -14063,7 +14108,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 274.32 200.152 90)
 			(effects
 				(font
@@ -14083,6 +14128,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 274.32 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23204"
+			(at 274.32 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14250,7 +14304,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 132.08 127.762 90)
 			(effects
 				(font
@@ -14270,6 +14324,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 132.08 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C154682"
+			(at 132.08 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14398,7 +14461,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 35.56 151.892 90)
 			(effects
 				(font
@@ -14418,6 +14481,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 35.56 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23204"
+			(at 35.56 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14700,7 +14772,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 72.39 230.632 90)
 			(effects
 				(font
@@ -14719,6 +14791,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 72.39 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23151"
 			(at 72.39 232.41 0)
 			(effects
 				(font
@@ -15085,7 +15166,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 76.962 219.71 90)
 			(effects
 				(font
@@ -15104,6 +15185,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 78.74 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22775"
 			(at 78.74 219.71 0)
 			(effects
 				(font
@@ -15288,7 +15378,7 @@
 		(at 181.61 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "4c790ee5-156e-4f67-a8b0-2ea009ffc448")
@@ -15355,7 +15445,7 @@
 		(at 181.61 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "50e41458-2161-46fb-a6f9-1b95ea17aa49")
@@ -15445,7 +15535,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.52 171.45 0)
 			(effects
 				(font
@@ -15464,6 +15554,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 96.52 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2762593"
 			(at 96.52 171.45 0)
 			(effects
 				(font
@@ -15515,7 +15614,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 287.528 195.58 90)
 			(effects
 				(font
@@ -15534,6 +15633,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 285.75 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23151"
 			(at 285.75 195.58 0)
 			(effects
 				(font
@@ -15664,7 +15772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 57.15 133.35 0)
 			(effects
 				(font
@@ -15683,6 +15791,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 57.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2762593"
 			(at 57.15 133.35 0)
 			(effects
 				(font
@@ -16267,7 +16384,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 92.202 49.53 90)
 			(effects
 				(font
@@ -16286,6 +16403,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 93.98 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C98220"
 			(at 93.98 49.53 0)
 			(effects
 				(font
@@ -16502,7 +16628,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6828095c-46cb-4fcc-a7ca-bc6dbfc88cbf")
+		(uuid "6e4b5d94-0f2a-4b51-b0c0-68b431dcf20a")
 		(property "Reference" "C27"
 			(at 203.2 224.7962 0)
 			(effects
@@ -16521,7 +16647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EasyEDA:C1210"
+		(property "Footprint" "EasyEDA:C2220"
 			(at 200.66 226.06 0)
 			(effects
 				(font
@@ -16530,7 +16656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_PSA-Prosperity-Dielectrics-FS55X226K500EHG_C784103.html"
 			(at 200.66 226.06 0)
 			(effects
 				(font
@@ -16539,7 +16665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "FS55X226K500EHG"
 			(at 200.66 226.06 0)
 			(effects
 				(font
@@ -16548,7 +16674,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C100086"
+		(property "LCSC Part" "C784103"
 			(at 200.66 238.76 0)
 			(effects
 				(font
@@ -16557,11 +16683,11 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "20a749ac-a228-480d-9bab-46140563b8da")
-		)
 		(pin "1"
-			(uuid "d8b1a20f-7c58-4eed-bffb-00d9d5c88284")
+			(uuid "b85fb87c-94ee-4b33-b1be-045a4d999d62")
+		)
+		(pin "2"
+			(uuid "9cb45264-0574-41dd-b76a-535315647909")
 		)
 		(instances
 			(project "freyja-gcs-pcb"
@@ -16601,7 +16727,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 255.27 106.68 0)
 			(effects
 				(font
@@ -16620,6 +16746,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 255.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2762593"
 			(at 255.27 106.68 0)
 			(effects
 				(font
@@ -17060,7 +17195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 219.71 226.06 0)
 			(effects
 				(font
@@ -17079,6 +17214,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 219.71 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2762593"
 			(at 219.71 226.06 0)
 			(effects
 				(font
@@ -17278,7 +17422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 130.302 237.49 90)
 			(effects
 				(font
@@ -17297,6 +17441,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 132.08 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2907032"
 			(at 132.08 237.49 0)
 			(effects
 				(font
@@ -17573,7 +17726,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 83.312 163.83 90)
 			(effects
 				(font
@@ -17592,6 +17745,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 85.09 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23186"
 			(at 85.09 163.83 0)
 			(effects
 				(font
@@ -17620,7 +17782,7 @@
 		(at 372.11 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7baea9a8-787d-4581-8ee7-1f42171e6141")
@@ -17687,7 +17849,7 @@
 		(at 270.51 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7fab1605-c08a-454f-8f80-d9ae913182f4")
@@ -17939,7 +18101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 76.962 245.11 90)
 			(effects
 				(font
@@ -17958,6 +18120,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 78.74 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22775"
 			(at 78.74 245.11 0)
 			(effects
 				(font
@@ -18312,6 +18483,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 367.03 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83b0a898-1c45-4d92-89d8-d8080295bab2")
+		(property "Reference" "C44"
+			(at 369.57 116.8462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 369.57 119.3862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:C2220"
+			(at 367.03 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_PSA-Prosperity-Dielectrics-FS55X226K500EHG_C784103.html"
+			(at 367.03 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FS55X226K500EHG"
+			(at 367.03 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C784103"
+			(at 367.03 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3264e326-0f63-441a-ab7f-0eda0bbbd58b")
+		)
+		(pin "2"
+			(uuid "10a6f647-8715-49fa-b201-fab3fef50eb4")
+		)
+		(instances
+			(project ""
+				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/c65c6484-459d-48da-abd0-c2a58ebde1bb"
+					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 72.39 207.01 90)
 		(mirror x)
@@ -18339,7 +18589,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 72.39 205.232 90)
 			(effects
 				(font
@@ -18358,6 +18608,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 72.39 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23151"
 			(at 72.39 207.01 0)
 			(effects
 				(font
@@ -18409,7 +18668,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 28.702 162.56 90)
 			(effects
 				(font
@@ -18428,6 +18687,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 30.48 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23151"
 			(at 30.48 162.56 0)
 			(effects
 				(font
@@ -18512,85 +18780,6 @@
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/c65c6484-459d-48da-abd0-c2a58ebde1bb"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 209.55 226.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87ab017e-3004-400c-a961-0801db1fd736")
-		(property "Reference" "C28"
-			(at 212.09 224.7962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 212.09 227.3362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "EasyEDA:C1210"
-			(at 209.55 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 209.55 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C100086"
-			(at 209.55 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "89e09c33-4482-4514-b8fb-8e6ae1879a07")
-		)
-		(pin "1"
-			(uuid "071ad286-76e5-4235-a21d-c3ff44bb2ee8")
-		)
-		(instances
-			(project "freyja-gcs-pcb"
-				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/c65c6484-459d-48da-abd0-c2a58ebde1bb"
-					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -18937,7 +19126,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 248.412 187.96 90)
 			(effects
 				(font
@@ -18956,6 +19145,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 250.19 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C98220"
 			(at 250.19 187.96 0)
 			(effects
 				(font
@@ -19085,7 +19283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 37.592 171.45 90)
 			(effects
 				(font
@@ -19104,6 +19302,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 39.37 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2906974"
 			(at 39.37 171.45 0)
 			(effects
 				(font
@@ -19223,7 +19430,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 255.27 134.62 0)
 			(effects
 				(font
@@ -19242,6 +19449,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 255.27 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2762593"
 			(at 255.27 134.62 0)
 			(effects
 				(font
@@ -19293,7 +19509,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 72.898 54.61 90)
 			(effects
 				(font
@@ -19312,6 +19528,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 71.12 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23186"
 			(at 71.12 54.61 0)
 			(effects
 				(font
@@ -19524,7 +19749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EasyEDA:R0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 30.48 170.18 0)
 			(effects
 				(font
@@ -19551,7 +19776,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C77131"
+		(property "LCSC Part" "C98220"
 			(at 30.48 184.15 0)
 			(effects
 				(font
@@ -19653,76 +19878,6 @@
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/c65c6484-459d-48da-abd0-c2a58ebde1bb"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 138.43 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a936f206-1d88-46e4-95ff-20319a1dbb63")
-		(property "Reference" "C26"
-			(at 140.97 78.7462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 140.97 81.2862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 138.43 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "39d4cc9a-4ce2-44a7-97cd-10575d0c08e1")
-		)
-		(pin "1"
-			(uuid "cfdb600e-ecd6-48ba-b431-025e919523ec")
-		)
-		(instances
-			(project "freyja-gcs-pcb"
-				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/c65c6484-459d-48da-abd0-c2a58ebde1bb"
-					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -20366,7 +20521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 78.74 228.6 0)
 			(effects
 				(font
@@ -20385,6 +20540,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 78.74 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2762593"
 			(at 78.74 228.6 0)
 			(effects
 				(font
@@ -20506,7 +20670,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "2u2"
 			(at 86.36 49.5362 0)
 			(effects
 				(font
@@ -20515,7 +20679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 83.82 48.26 0)
 			(effects
 				(font
@@ -20534,6 +20698,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 83.82 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C913904"
 			(at 83.82 48.26 0)
 			(effects
 				(font
@@ -20586,7 +20759,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 245.11 106.68 0)
 			(effects
 				(font
@@ -20605,6 +20778,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 245.11 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2762593"
 			(at 245.11 106.68 0)
 			(effects
 				(font
@@ -20656,7 +20838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 234.95 134.62 0)
 			(effects
 				(font
@@ -20675,6 +20857,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 234.95 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C913904"
 			(at 234.95 134.62 0)
 			(effects
 				(font
@@ -20726,7 +20917,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 287.528 213.36 90)
 			(effects
 				(font
@@ -20745,6 +20936,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 285.75 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25803"
 			(at 285.75 213.36 0)
 			(effects
 				(font
@@ -20796,7 +20996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 46.482 171.45 90)
 			(effects
 				(font
@@ -20815,6 +21015,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 48.26 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22935"
 			(at 48.26 171.45 0)
 			(effects
 				(font
@@ -20866,7 +21075,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 72.898 69.85 90)
 			(effects
 				(font
@@ -20885,6 +21094,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 71.12 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23186"
 			(at 71.12 69.85 0)
 			(effects
 				(font
@@ -20936,7 +21154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 33.782 134.62 90)
 			(effects
 				(font
@@ -20955,6 +21173,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 35.56 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23204"
 			(at 35.56 134.62 0)
 			(effects
 				(font
@@ -21006,7 +21233,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 339.598 213.36 90)
 			(effects
 				(font
@@ -21025,6 +21252,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 337.82 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23151"
 			(at 337.82 213.36 0)
 			(effects
 				(font
@@ -21075,7 +21311,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 28.702 134.62 90)
 			(effects
 				(font
@@ -21094,6 +21330,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 30.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23151"
 			(at 30.48 134.62 0)
 			(effects
 				(font
@@ -21275,6 +21520,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 209.55 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d97a8602-9d55-484d-93a7-d587aba8be95")
+		(property "Reference" "C28"
+			(at 212.09 224.7962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 212.09 227.3362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:C2220"
+			(at 209.55 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_PSA-Prosperity-Dielectrics-FS55X226K500EHG_C784103.html"
+			(at 209.55 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FS55X226K500EHG"
+			(at 209.55 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C784103"
+			(at 209.55 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9cbe4b7-ebed-4135-a14b-a4ec5a3961c1")
+		)
+		(pin "2"
+			(uuid "3f4c695c-3bdb-485c-ae0f-cc6850448702")
+		)
+		(instances
+			(project "freyja-gcs-pcb"
+				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/c65c6484-459d-48da-abd0-c2a58ebde1bb"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 127 83.82 0)
 		(unit 1)
@@ -21368,7 +21692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 78.74 254 0)
 			(effects
 				(font
@@ -21387,6 +21711,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 78.74 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2762593"
 			(at 78.74 254 0)
 			(effects
 				(font
@@ -21754,7 +22087,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 57.15 171.45 0)
 			(effects
 				(font
@@ -21773,6 +22106,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 57.15 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2762593"
 			(at 57.15 171.45 0)
 			(effects
 				(font
@@ -21801,7 +22143,7 @@
 		(at 173.99 246.38 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e44beed3-a4cb-49f5-8088-9358000114dc")
@@ -21868,7 +22210,7 @@
 		(at 368.3 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e4e0c098-6122-4aa1-a522-e233a496fb25")
@@ -21958,7 +22300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 22.098 237.49 90)
 			(effects
 				(font
@@ -21977,6 +22319,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 20.32 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4190"
 			(at 20.32 237.49 0)
 			(effects
 				(font
@@ -22249,7 +22600,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 245.11 134.62 0)
 			(effects
 				(font
@@ -22268,6 +22619,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 245.11 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2762593"
 			(at 245.11 134.62 0)
 			(effects
 				(font
@@ -22372,7 +22732,7 @@
 		(at 344.17 207.01 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ed856780-004a-423d-854f-36ffa839d55e")
@@ -22606,7 +22966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 266.7 226.06 0)
 			(effects
 				(font
@@ -22625,6 +22985,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 266.7 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C913904"
 			(at 266.7 226.06 0)
 			(effects
 				(font
@@ -22709,6 +23078,85 @@
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/c65c6484-459d-48da-abd0-c2a58ebde1bb"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 138.43 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f00e1330-30f1-4c78-989f-fcee7fbd88ed")
+		(property "Reference" "C26"
+			(at 140.97 78.7462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 140.97 81.2862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:C2220"
+			(at 138.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_PSA-Prosperity-Dielectrics-FS55X226K500EHG_C784103.html"
+			(at 138.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FS55X226K500EHG"
+			(at 138.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C784103"
+			(at 138.43 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ea3350b-0d95-4392-9f33-d1b796351d58")
+		)
+		(pin "2"
+			(uuid "3779ac8a-4b6a-4e4c-a45c-caf98fa17f65")
+		)
+		(instances
+			(project "freyja-gcs-pcb"
+				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/c65c6484-459d-48da-abd0-c2a58ebde1bb"
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -22808,7 +23256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 85.09 171.45 0)
 			(effects
 				(font
@@ -22827,6 +23275,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 85.09 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C344195"
 			(at 85.09 171.45 0)
 			(effects
 				(font
@@ -22851,90 +23308,11 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 367.03 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f40ba0e6-69dd-4df9-a0e6-ac1d0f4eecec")
-		(property "Reference" "C44"
-			(at 369.57 116.8462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 369.57 119.3862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "EasyEDA:C1210"
-			(at 367.03 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 367.03 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 367.03 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C100086"
-			(at 367.03 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f07c271d-58cb-40bc-b65f-cefa8021318e")
-		)
-		(pin "1"
-			(uuid "7876dc84-ee2d-4bb2-ac52-f75f8e8113b0")
-		)
-		(instances
-			(project "freyja-gcs-pcb"
-				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/c65c6484-459d-48da-abd0-c2a58ebde1bb"
-					(reference "C44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 367.03 104.14 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f4130f2b-7a45-4aa6-9c69-1d4c3d017b66")
@@ -23315,7 +23693,7 @@
 		(at 181.61 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "fa1ed586-6ba8-488b-ae12-435a898f5b08")
@@ -23404,7 +23782,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 259.08 223.52 0)
 			(effects
 				(font
@@ -23423,6 +23801,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 259.08 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2762593"
 			(at 259.08 223.52 0)
 			(effects
 				(font

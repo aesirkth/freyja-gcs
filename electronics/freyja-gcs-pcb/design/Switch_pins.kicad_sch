@@ -5352,7 +5352,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 132.842 95.25 90)
 			(effects
 				(font
@@ -5596,7 +5596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 235.458 26.67 90)
 			(effects
 				(font
@@ -5615,6 +5615,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 233.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22962"
 			(at 233.68 26.67 0)
 			(effects
 				(font
@@ -5664,7 +5673,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 44.45 152.908 90)
 			(effects
 				(font
@@ -5742,7 +5751,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 132.842 48.26 90)
 			(effects
 				(font
@@ -6499,7 +6508,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 140.462 172.72 90)
 			(effects
 				(font
@@ -7049,7 +7058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 215.138 26.67 90)
 			(effects
 				(font
@@ -7068,6 +7077,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 213.36 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22962"
 			(at 213.36 26.67 0)
 			(effects
 				(font
@@ -7290,7 +7308,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.778 26.67 90)
 			(effects
 				(font
@@ -7309,6 +7327,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 254 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22962"
 			(at 254 26.67 0)
 			(effects
 				(font
@@ -7448,7 +7475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 164.338 25.4 90)
 			(effects
 				(font
@@ -7467,6 +7494,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 162.56 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23186"
 			(at 162.56 25.4 0)
 			(effects
 				(font
@@ -7584,7 +7620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 34.798 25.4 90)
 			(effects
 				(font
@@ -7603,6 +7639,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 33.02 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23186"
 			(at 33.02 25.4 0)
 			(effects
 				(font
@@ -7654,7 +7699,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 34.798 72.39 90)
 			(effects
 				(font
@@ -7673,6 +7718,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 33.02 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23186"
 			(at 33.02 72.39 0)
 			(effects
 				(font
@@ -8221,7 +8275,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 51.562 172.72 90)
 			(effects
 				(font
@@ -8542,7 +8596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 215.138 74.93 90)
 			(effects
 				(font
@@ -8561,6 +8615,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 213.36 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23186"
 			(at 213.36 74.93 0)
 			(effects
 				(font
@@ -9351,7 +9414,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 46.482 48.26 90)
 			(effects
 				(font
@@ -9429,7 +9492,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 176.022 95.25 90)
 			(effects
 				(font
@@ -9954,7 +10017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 235.458 74.93 90)
 			(effects
 				(font
@@ -9973,6 +10036,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 233.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23186"
 			(at 233.68 74.93 0)
 			(effects
 				(font
@@ -10172,7 +10244,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 121.158 72.39 90)
 			(effects
 				(font
@@ -10191,6 +10263,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 119.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23186"
 			(at 119.38 72.39 0)
 			(effects
 				(font
@@ -10241,7 +10322,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 89.662 48.26 90)
 			(effects
 				(font
@@ -10714,7 +10795,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 96.012 172.72 90)
 			(effects
 				(font
@@ -11012,7 +11093,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 46.482 95.25 90)
 			(effects
 				(font
@@ -11158,7 +11239,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 77.978 25.4 90)
 			(effects
 				(font
@@ -11177,6 +11258,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 76.2 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23186"
 			(at 76.2 25.4 0)
 			(effects
 				(font
@@ -11377,7 +11467,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 164.338 72.39 90)
 			(effects
 				(font
@@ -11396,6 +11486,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 162.56 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23186"
 			(at 162.56 72.39 0)
 			(effects
 				(font
@@ -12300,7 +12399,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.778 74.93 90)
 			(effects
 				(font
@@ -12319,6 +12418,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 254 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22962"
 			(at 254 74.93 0)
 			(effects
 				(font
@@ -13353,7 +13461,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 89.662 95.25 90)
 			(effects
 				(font
@@ -14121,7 +14229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 276.098 26.67 90)
 			(effects
 				(font
@@ -14140,6 +14248,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 274.32 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23186"
 			(at 274.32 26.67 0)
 			(effects
 				(font
@@ -14191,7 +14308,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 77.978 72.39 90)
 			(effects
 				(font
@@ -14210,6 +14327,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 76.2 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23186"
 			(at 76.2 72.39 0)
 			(effects
 				(font
@@ -14260,7 +14386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 176.022 48.26 90)
 			(effects
 				(font
@@ -14428,7 +14554,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 88.9 152.908 90)
 			(effects
 				(font
@@ -14507,7 +14633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 121.158 25.4 90)
 			(effects
 				(font
@@ -14526,6 +14652,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 119.38 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23186"
 			(at 119.38 25.4 0)
 			(effects
 				(font
