@@ -580,7 +580,7 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "LCSC Part",
           "name": "LCSC Part",
           "show": true
