@@ -1033,7 +1033,7 @@
 			(uuid "89e7954b-1e73-40d8-aab6-88e1ff91a579")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/CRYSTAL-SMD_4P-L2.0-W1.6-BL_HUAXIN_CN4.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/CRYSTAL-SMD_4P-L2.0-W1.6-BL_HUAXIN_CN4.wrl"
 			(offset
 				(xyz -0 -0 -0)
 			)
@@ -1300,7 +1300,7 @@
 			(uuid "ead746d1-9c94-4957-bb7f-b58cff3ef18c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/LED-TH_BD5.9-P2.54-RD_GREEN.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/LED-TH_BD5.9-P2.54-RD_GREEN.wrl"
 			(offset
 				(xyz -0 -0 0)
 			)
@@ -1702,7 +1702,7 @@
 			(uuid "90230bc9-633b-41c7-bae9-02f8bfea92a9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOT-416-3P_L1.6-W0.8-H0.9-LS1.6-P1.00.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOT-416-3P_L1.6-W0.8-H0.9-LS1.6-P1.00.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -3899,7 +3899,7 @@
 			(uuid "c7251e3c-ed92-4ce2-8be2-667d9a2c27ed")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/C2220_L5.6-W5.0-H3.0.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/C2220_L5.6-W5.0-H3.0.wrl"
 			(offset
 				(xyz -914.4 685.8 -0)
 			)
@@ -4959,7 +4959,7 @@
 			(uuid "e80b3be3-9b8f-4acd-a847-980bd4b31506")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOT-416-3P_L1.6-W0.8-H0.9-LS1.6-P1.00.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOT-416-3P_L1.6-W0.8-H0.9-LS1.6-P1.00.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -5129,7 +5129,7 @@
 			(uuid "8504d2a9-609f-4fc0-bda5-0b19a84ef819")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/LED-TH_BD5.9-P2.54-RD_GREEN.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/LED-TH_BD5.9-P2.54-RD_GREEN.wrl"
 			(offset
 				(xyz -0 -0 0)
 			)
@@ -5798,7 +5798,7 @@
 			(uuid "af5f054e-4749-4130-915b-b180a8cac4ec")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/C2220_L5.6-W5.0-H3.0.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/C2220_L5.6-W5.0-H3.0.wrl"
 			(offset
 				(xyz -914.4 685.8 -0)
 			)
@@ -6200,7 +6200,7 @@
 			(uuid "e39c8b32-5b44-45e3-9608-beaff527a2b0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOT-416-3P_L1.6-W0.8-H0.9-LS1.6-P1.00.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOT-416-3P_L1.6-W0.8-H0.9-LS1.6-P1.00.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -6534,7 +6534,7 @@
 			(uuid "7c708df8-fbc0-40b8-940b-c7a01fe734f8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOD-123FL_L2.8-W1.8-LS3.8-RD.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOD-123FL_L2.8-W1.8-LS3.8-RD.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -6978,7 +6978,7 @@
 			(uuid "96bbcba0-372a-4045-924a-e688679736a4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SW-TH_K6-6136D-L1-04.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SW-TH_K6-6136D-L1-04.wrl"
 			(offset
 				(xyz 0 -0 3.3)
 			)
@@ -7175,7 +7175,7 @@
 			(uuid "6809403f-c7fa-4ac9-a39b-96cdfb4e23a2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SW-TH_3P-L8.3-W5.2-P2.54_ST-0-102-A01-T000.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SW-TH_3P-L8.3-W5.2-P2.54_ST-0-102-A01-T000.wrl"
 			(offset
 				(xyz 0 -0 0)
 			)
@@ -7373,7 +7373,7 @@
 			(uuid "2033c88c-07ac-4e15-ae1f-4cd20e06c8f6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
 			(offset
 				(xyz 0 0 -0)
 			)
@@ -7987,7 +7987,7 @@
 			(uuid "126487fe-67b1-42f4-920a-22fa93181080")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOT-416-3P_L1.6-W0.8-H0.9-LS1.6-P1.00.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOT-416-3P_L1.6-W0.8-H0.9-LS1.6-P1.00.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -9078,7 +9078,7 @@
 			(uuid "196ec86c-3f0f-4ac6-af1f-408eda920e84")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50.wrl"
 			(offset
 				(xyz -0.3 -0 -0)
 			)
@@ -9513,7 +9513,7 @@
 			(uuid "3ac4ac79-8b00-4096-8a2b-dbfbdbe519ba")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/C2220_L5.6-W5.0-H3.0.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/C2220_L5.6-W5.0-H3.0.wrl"
 			(offset
 				(xyz -914.4 685.8 -0)
 			)
@@ -9970,7 +9970,7 @@
 			(uuid "83f4d910-4f7e-40c8-b89c-216426eb84de")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/C1210_L3.2-W2.5-H2.5.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/C1210_L3.2-W2.5-H2.5.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -10193,7 +10193,7 @@
 			(uuid "d4b2eb03-63da-41e0-9e04-76be7a1f57ba")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/C1210_L3.2-W2.5-H2.5.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/C1210_L3.2-W2.5-H2.5.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -10383,7 +10383,7 @@
 			(uuid "eeba69e0-e9b2-4251-9517-1dec1f847100")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -10818,7 +10818,7 @@
 			(uuid "a7f48a47-f7a1-49b9-bb96-799e5168f7a7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/C1210_L3.2-W2.5-H2.5.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/C1210_L3.2-W2.5-H2.5.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -11899,7 +11899,7 @@
 			(uuid "5f0cb5f2-7863-4ce5-baa9-009b0d77a396")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SW-TH_3P-L8.3-W5.2-P2.54_ST-0-102-A01-T000.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SW-TH_3P-L8.3-W5.2-P2.54_ST-0-102-A01-T000.wrl"
 			(offset
 				(xyz 0 -0 0)
 			)
@@ -12301,7 +12301,7 @@
 			(uuid "e7d72d39-396b-411c-9370-6c4c4c539039")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOT-416-3P_L1.6-W0.8-H0.9-LS1.6-P1.00.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOT-416-3P_L1.6-W0.8-H0.9-LS1.6-P1.00.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -12502,7 +12502,7 @@
 			(uuid "73fe85c8-183d-4c6e-ba72-e6b13f17d098")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/IND-SMD_L12.8-W13.5-H6.5.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/IND-SMD_L12.8-W13.5-H6.5.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -12700,7 +12700,7 @@
 			(uuid "8d1a12d9-ad68-4b99-ac4d-4601321f3118")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -12898,7 +12898,7 @@
 			(uuid "b3c15def-0144-46fd-8373-1ad2c9514af7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
 			(offset
 				(xyz 0 0 -0)
 			)
@@ -13972,7 +13972,7 @@
 			(uuid "3e888c14-a061-491d-8042-9779b49238b3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOT-416-3P_L1.6-W0.8-H0.9-LS1.6-P1.00.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOT-416-3P_L1.6-W0.8-H0.9-LS1.6-P1.00.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -14782,7 +14782,7 @@
 			(uuid "649386f5-e5e0-45a6-8fdd-83a2588312b6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOIC-16_L9.9-W3.9-H1.8-LS6.0-P1.27.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOIC-16_L9.9-W3.9-H1.8-LS6.0-P1.27.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -14972,7 +14972,7 @@
 			(uuid "139fc869-fdc9-4844-b26d-615f769658b9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -15162,7 +15162,7 @@
 			(uuid "08cdacb1-6229-42df-8e93-34ac2d3a52f0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOT-416-3P_L1.6-W0.8-H0.9-LS1.6-P1.00.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOT-416-3P_L1.6-W0.8-H0.9-LS1.6-P1.00.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -15333,7 +15333,7 @@
 			(uuid "50ffaacc-2ccf-421a-8e61-1e7ab57f4aa5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOD-128_L3.7-W2.5-LS4.7-RD-1.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOD-128_L3.7-W2.5-LS4.7-RD-1.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -15653,7 +15653,7 @@
 			(uuid "6091f638-062c-4f67-976c-92ec2e215c52")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOIC-16_L9.9-W3.9-H1.8-LS6.0-P1.27.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOIC-16_L9.9-W3.9-H1.8-LS6.0-P1.27.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -15843,7 +15843,7 @@
 			(uuid "cd150d2b-539a-4069-8b21-2025ac3093f6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOT-416-3P_L1.6-W0.8-H0.9-LS1.6-P1.00.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOT-416-3P_L1.6-W0.8-H0.9-LS1.6-P1.00.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -16676,7 +16676,7 @@
 			(uuid "459afa82-1cc7-4477-862b-aa18c25b3b78")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SW-TH_3P-L8.3-W5.2-P2.54_ST-0-102-A01-T000.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SW-TH_3P-L8.3-W5.2-P2.54_ST-0-102-A01-T000.wrl"
 			(offset
 				(xyz 0 -0 0)
 			)
@@ -16899,7 +16899,7 @@
 			(uuid "f7c8b762-bd34-4657-9d6b-149780500787")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/C1210_L3.2-W2.5-H2.5.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/C1210_L3.2-W2.5-H2.5.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -17324,7 +17324,7 @@
 			(uuid "037f9436-ac4e-4413-9d53-a225e69d27ca")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50.wrl"
 			(offset
 				(xyz -0.3 -0 -0)
 			)
@@ -17514,7 +17514,7 @@
 			(uuid "7224941c-a63f-4f0e-bdef-4372ebbd72fc")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOT-416-3P_L1.6-W0.8-H0.9-LS1.6-P1.00.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOT-416-3P_L1.6-W0.8-H0.9-LS1.6-P1.00.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -18080,7 +18080,7 @@
 			(uuid "a277b988-72b8-4902-a66f-ef7155e5b9ac")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/LED-SEG-TH_10P-L15.0-W10.0-H6.1-P2.54-S7.62.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/LED-SEG-TH_10P-L15.0-W10.0-H6.1-P2.54-S7.62.wrl"
 			(offset
 				(xyz 3.8 0 0)
 			)
@@ -18505,7 +18505,7 @@
 			(uuid "78b14847-9012-4592-8ed4-13d5687d6349")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50.wrl"
 			(offset
 				(xyz -0.3 -0 -0)
 			)
@@ -19882,7 +19882,7 @@
 			(uuid "50977288-a0f2-4bd2-80a3-0796c8295d1c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/LED-TH_BD5.9-P2.54-RD_GREEN.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/LED-TH_BD5.9-P2.54-RD_GREEN.wrl"
 			(offset
 				(xyz -0 -0 0)
 			)
@@ -20072,7 +20072,7 @@
 			(uuid "db1cb010-2122-4adc-aa49-58f3fd597b4b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOT-416-3P_L1.6-W0.8-H0.9-LS1.6-P1.00.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOT-416-3P_L1.6-W0.8-H0.9-LS1.6-P1.00.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -20454,7 +20454,7 @@
 			(uuid "71006e28-7785-4ded-87c9-07cdc0d2f362")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/LED-TH_BD5.9-P2.54-RD_GREEN.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/LED-TH_BD5.9-P2.54-RD_GREEN.wrl"
 			(offset
 				(xyz -0 -0 0)
 			)
@@ -21391,7 +21391,7 @@
 			(uuid "f246ccb7-c14a-4a0a-a981-94f7ccea4772")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.wrl"
 			(offset
 				(xyz 0 0 -0)
 			)
@@ -21729,7 +21729,7 @@
 			(uuid "26cd73f7-66fa-4c05-88a3-0122981ceeb9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SW-TH_6P-L8.5-W8.5-P2.54-LS5.5.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SW-TH_6P-L8.5-W8.5-P2.54-LS5.5.wrl"
 			(offset
 				(xyz 0 -0 4.2)
 			)
@@ -21927,7 +21927,7 @@
 			(uuid "df64bfde-2fda-44be-b88e-f0c5605fd12d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -22549,7 +22549,7 @@
 			(uuid "37ed424c-a1e4-4f5e-851a-8f37743eede2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
 			(offset
 				(xyz 0 0 -0)
 			)
@@ -22843,7 +22843,7 @@
 			(uuid "45a47426-bad1-4d30-bc4e-95dc4b3835b9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/LED0603-RD_RED.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/LED0603-RD_RED.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -23457,7 +23457,7 @@
 			(uuid "96ab5a53-bd6f-401f-b469-303585bf3b5d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOT-416-3P_L1.6-W0.8-H0.9-LS1.6-P1.00.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOT-416-3P_L1.6-W0.8-H0.9-LS1.6-P1.00.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -24222,7 +24222,7 @@
 			(uuid "1113c021-846c-4134-8a4c-78db2e382a3d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/TSSOP-16_L5.0-W4.4-H1.0-LS6.4-P0.65.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/TSSOP-16_L5.0-W4.4-H1.0-LS6.4-P0.65.wrl"
 			(offset
 				(xyz -914.46 685.51 -0)
 			)
@@ -25061,7 +25061,7 @@
 			(uuid "77483ef5-9836-4d93-a8f1-827d5b29268a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/LED-TH_BD5.9-P2.54-RD_GREEN.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/LED-TH_BD5.9-P2.54-RD_GREEN.wrl"
 			(offset
 				(xyz -0 -0 0)
 			)
@@ -25637,7 +25637,7 @@
 			(uuid "45215cd2-1161-4c44-bae5-1233e6506d05")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/USB-C-SMD_G-SWITCH_GT-USB-7010ASV.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/USB-C-SMD_G-SWITCH_GT-USB-7010ASV.wrl"
 			(offset
 				(xyz 0 -1.05 0)
 			)
@@ -26823,7 +26823,7 @@
 			(uuid "79fe442c-1902-4ce9-8395-66bd9c08c0d4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SW-TH_3P-L8.3-W5.2-P2.54_ST-0-102-A01-T000.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SW-TH_3P-L8.3-W5.2-P2.54_ST-0-102-A01-T000.wrl"
 			(offset
 				(xyz 0 -0 0)
 			)
@@ -27036,7 +27036,7 @@
 			(uuid "e2bd5c11-35b8-48b3-9e87-d32fbcfbb3fc")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50.wrl"
 			(offset
 				(xyz -0.3 -0 -0)
 			)
@@ -27253,7 +27253,7 @@
 			(uuid "d00932a8-1061-487e-bfbe-b8d222f95497")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/CONN-SMD_AFC10-S04QCA-00.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/CONN-SMD_AFC10-S04QCA-00.wrl"
 			(offset
 				(xyz 0 -0.4 -0)
 			)
@@ -27476,7 +27476,7 @@
 			(uuid "1623293e-3814-4659-b376-fa9ec07db1c9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/C1210_L3.2-W2.5-H2.5.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/C1210_L3.2-W2.5-H2.5.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -27858,7 +27858,7 @@
 			(uuid "413d6c50-9821-40ca-9122-884f7696b367")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/LED-TH_BD5.9-P2.54-RD_GREEN.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/LED-TH_BD5.9-P2.54-RD_GREEN.wrl"
 			(offset
 				(xyz -0 -0 0)
 			)
@@ -28081,7 +28081,7 @@
 			(uuid "d6b80512-abe1-4661-a4b3-eb96ac9aef5d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/C1210_L3.2-W2.5-H2.5.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/C1210_L3.2-W2.5-H2.5.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -28312,7 +28312,7 @@
 			(uuid "71b96b25-6617-4499-9e97-66e1b31425ea")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/BATTERY-SMD_18650-1S-L77.1-W20.7-1.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/BATTERY-SMD_18650-1S-L77.1-W20.7-1.wrl"
 			(offset
 				(xyz 0 -0 1.5)
 			)
@@ -28967,7 +28967,7 @@
 			(uuid "e2280392-caec-412c-aa66-be04783ae0e4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/BATTERY-SMD_18650-1S-L77.1-W20.7-1.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/BATTERY-SMD_18650-1S-L77.1-W20.7-1.wrl"
 			(offset
 				(xyz 0 -0 1.5)
 			)
@@ -29629,7 +29629,7 @@
 			(uuid "c9f46633-3c08-4891-8111-13e6ad2f09a6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/CONN-TH_PHD2-4P-2.54.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/CONN-TH_PHD2-4P-2.54.wrl"
 			(offset
 				(xyz 0 -1.75 2.9)
 			)
@@ -31443,7 +31443,7 @@
 			(uuid "c04cdef4-cb0e-44ef-965b-5cf61d7abedf")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/CONN-TH_XT60PB-F.G.Y.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/CONN-TH_XT60PB-F.G.Y.wrl"
 			(offset
 				(xyz 0 -0 0)
 			)
@@ -31878,7 +31878,7 @@
 			(uuid "448ceaf7-36c2-4a3c-9db8-740e982334e3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/C1210_L3.2-W2.5-H2.5.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/C1210_L3.2-W2.5-H2.5.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -32215,7 +32215,7 @@
 			(uuid "b206b76f-6740-4689-8ca6-900f85dcc53f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOP-8_L5.0-W4.0-H1.8-LS6.2-P1.27.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOP-8_L5.0-W4.0-H1.8-LS6.2-P1.27.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -33098,7 +33098,7 @@
 			(uuid "46c397ed-856c-4bca-8979-e7cae6c6b2a7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SW-TH_3P-L8.3-W5.2-P2.54_ST-0-102-A01-T000.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SW-TH_3P-L8.3-W5.2-P2.54_ST-0-102-A01-T000.wrl"
 			(offset
 				(xyz 0 -0 0)
 			)
@@ -33541,7 +33541,7 @@
 			(uuid "62d9c1c4-9021-4fd2-a1d3-bbc8b8138aa9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/BATTERY-SMD_18650-1S-L77.1-W20.7-1.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/BATTERY-SMD_18650-1S-L77.1-W20.7-1.wrl"
 			(offset
 				(xyz 0 -0 1.5)
 			)
@@ -34369,7 +34369,7 @@
 			(uuid "acea4d66-f008-40e5-baa2-fdbfd72de418")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/LED-TH_BD5.9-P2.54-RD_GREEN.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/LED-TH_BD5.9-P2.54-RD_GREEN.wrl"
 			(offset
 				(xyz -0 -0 0)
 			)
@@ -35621,7 +35621,7 @@
 			(uuid "a261b113-643a-4685-964c-bd8eb3cef6f1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/LED-TH_BD5.9-P2.54-RD_GREEN.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/LED-TH_BD5.9-P2.54-RD_GREEN.wrl"
 			(offset
 				(xyz -0 -0 0)
 			)
@@ -35811,7 +35811,7 @@
 			(uuid "56b4d130-9405-4468-87b0-2219d5b5dd32")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/TO-236AB_L2.9-W1.3-H1.0-LS2.3-P0.95.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/TO-236AB_L2.9-W1.3-H1.0-LS2.3-P0.95.wrl"
 			(offset
 				(xyz -0 -0 -0)
 			)
@@ -35981,7 +35981,7 @@
 			(uuid "54925ceb-3a2f-4449-9e22-d4b815ac87ee")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/LED-TH_BD5.9-P2.54-RD_GREEN.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/LED-TH_BD5.9-P2.54-RD_GREEN.wrl"
 			(offset
 				(xyz -0 -0 0)
 			)
@@ -36319,7 +36319,7 @@
 			(uuid "8466735c-cc9b-4d94-8d55-772618abacec")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SW-TH_6P-L8.5-W8.5-P2.54-LS5.5.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SW-TH_6P-L8.5-W8.5-P2.54-LS5.5.wrl"
 			(offset
 				(xyz 0 -0 4.2)
 			)
@@ -36949,7 +36949,7 @@
 			(uuid "a34f2988-021d-4cbb-9d1f-ab7645a88049")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/CONN-TH_XT60PB-M.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/CONN-TH_XT60PB-M.wrl"
 			(offset
 				(xyz 3.75 3.8 8)
 			)
@@ -38365,7 +38365,7 @@
 			(uuid "a4189445-2417-4df6-b08a-091d0345fa51")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/BATTERY-SMD_18650-1S-L77.1-W20.7-1.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/BATTERY-SMD_18650-1S-L77.1-W20.7-1.wrl"
 			(offset
 				(xyz 0 -0 1.5)
 			)
@@ -40262,7 +40262,7 @@
 			(uuid "a765879a-c6ad-4b7a-8d8d-362efa2eb942")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/OSC-TH_BD1.9-H6.0-P0.70.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/OSC-TH_BD1.9-H6.0-P0.70.wrl"
 			(offset
 				(xyz 0 -0 7)
 			)
@@ -40793,7 +40793,7 @@
 			(uuid "3c52fcd6-9875-4845-958f-0d54fdfdbd63")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/TSSOP-16_L5.0-W4.4-H1.0-LS6.4-P0.65.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/TSSOP-16_L5.0-W4.4-H1.0-LS6.4-P0.65.wrl"
 			(offset
 				(xyz -914.46 685.51 -0)
 			)
@@ -42302,7 +42302,7 @@
 			(uuid "37271fb7-8a88-45a2-88e5-af4cf2d93965")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/CONN-TH_10P-P2.00_HCTL_PH-10AW.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/CONN-TH_10P-P2.00_HCTL_PH-10AW.wrl"
 			(offset
 				(xyz 0 -3.05 2.4)
 			)
@@ -42492,7 +42492,7 @@
 			(uuid "59b13077-2bba-4712-8cc6-2d74f7fe8bd5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOT-416-3P_L1.6-W0.8-H0.9-LS1.6-P1.00.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOT-416-3P_L1.6-W0.8-H0.9-LS1.6-P1.00.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -43094,7 +43094,7 @@
 			(uuid "9a96bc97-eac1-4dd2-828e-2256b8830b19")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/CONN-SMD_JS350-S02DCA-00.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/CONN-SMD_JS350-S02DCA-00.wrl"
 			(offset
 				(xyz 0 5.57 -0)
 			)
@@ -44067,7 +44067,7 @@
 			(uuid "52da8834-385e-46a2-b0d1-bfe1a3486cbb")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOP-8_L5.0-W4.0-H1.8-LS6.2-P1.27.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOP-8_L5.0-W4.0-H1.8-LS6.2-P1.27.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -44725,7 +44725,7 @@
 			(uuid "d6733faa-adb2-44fb-9642-7f784b08acff")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/LED0603-RD_GREEN.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/LED0603-RD_GREEN.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -45305,7 +45305,7 @@
 			(uuid "148afc15-ee25-428f-a475-0c6f409b6e7d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/QFN-12_L3.0-W3.0-P0.45-TL-EP.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/QFN-12_L3.0-W3.0-P0.45-TL-EP.wrl"
 			(offset
 				(xyz -0.02 -0.17 -0)
 			)
@@ -45502,7 +45502,7 @@
 			(uuid "523bc4d9-f02a-431c-a113-40b099ac0d28")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SW-TH_3P-L8.3-W5.2-P2.54_ST-0-102-A01-T000.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SW-TH_3P-L8.3-W5.2-P2.54_ST-0-102-A01-T000.wrl"
 			(offset
 				(xyz 0 -0 0)
 			)
@@ -45945,7 +45945,7 @@
 			(uuid "ad16410e-05ff-4cc4-8fd7-284232be411c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOD-123FL_L2.8-W1.8-LS3.8-RD.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOD-123FL_L2.8-W1.8-LS3.8-RD.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -47225,7 +47225,7 @@
 			(uuid "470ac29b-67ff-4c81-b031-3b64c47c7dc9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -47627,7 +47627,7 @@
 			(uuid "b032d098-ac3f-4c77-afb8-1014c9d28706")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOT-416-3P_L1.6-W0.8-H0.9-LS1.6-P1.00.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOT-416-3P_L1.6-W0.8-H0.9-LS1.6-P1.00.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -47861,7 +47861,7 @@
 			(uuid "aa7e5750-5ee1-4ba0-8d83-b587d6e727c4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/LED0603-R-RD_AMBER.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/LED0603-R-RD_AMBER.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -48031,7 +48031,7 @@
 			(uuid "0375ae97-fd0c-459c-99e4-9c15f6401241")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/LED-TH_BD5.9-P2.54-RD_GREEN.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/LED-TH_BD5.9-P2.54-RD_GREEN.wrl"
 			(offset
 				(xyz -0 -0 0)
 			)
@@ -48247,7 +48247,7 @@
 			(uuid "6962ff48-8040-4636-8aea-dbbdec5e66a3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/BAT-TH_BS-2-1.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/BAT-TH_BS-2-1.wrl"
 			(offset
 				(xyz 0 1.35 0)
 			)
@@ -49122,7 +49122,7 @@
 			(uuid "164b7881-2c27-43cf-929a-fb301006252d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/CONN-SMD_AFC10-S04QCA-00.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/CONN-SMD_AFC10-S04QCA-00.wrl"
 			(offset
 				(xyz 0 -0.4 -0)
 			)
@@ -49312,7 +49312,7 @@
 			(uuid "439e1a6c-29fe-4e3d-a7ea-34ace38c32e9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOT-416-3P_L1.6-W0.8-H0.9-LS1.6-P1.00.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOT-416-3P_L1.6-W0.8-H0.9-LS1.6-P1.00.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -49509,7 +49509,7 @@
 			(uuid "7c859d10-6606-44ac-990b-401c5dba70c0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SW-TH_3P-L8.3-W5.2-P2.54_ST-0-102-A01-T000.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SW-TH_3P-L8.3-W5.2-P2.54_ST-0-102-A01-T000.wrl"
 			(offset
 				(xyz 0 -0 0)
 			)
@@ -50434,7 +50434,7 @@
 			(uuid "47d7b034-9b4c-4fa7-91ff-44c005f7e09b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/LED-TH_BD5.9-P2.54-RD_GREEN.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/LED-TH_BD5.9-P2.54-RD_GREEN.wrl"
 			(offset
 				(xyz -0 -0 0)
 			)
@@ -50657,7 +50657,7 @@
 			(uuid "6d3bfb3e-fc05-49e9-a19f-ee423ca1dd4a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/C1210_L3.2-W2.5-H2.5.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/C1210_L3.2-W2.5-H2.5.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -51251,7 +51251,7 @@
 			(uuid "4a1a7458-99d5-407e-9247-74703eee4d56")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/LED-TH_BD5.9-P2.54-RD_GREEN.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/LED-TH_BD5.9-P2.54-RD_GREEN.wrl"
 			(offset
 				(xyz -0 -0 0)
 			)
@@ -51888,7 +51888,7 @@
 			(uuid "8183b085-2fca-4e22-bd56-40ef2796ff5c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50.wrl"
 			(offset
 				(xyz -0.3 -0 -0)
 			)
@@ -52085,7 +52085,7 @@
 			(uuid "5834523e-adcf-40a7-b283-df9caf229ec8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SW-TH_3P-L8.3-W5.2-P2.54_ST-0-102-A01-T000.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SW-TH_3P-L8.3-W5.2-P2.54_ST-0-102-A01-T000.wrl"
 			(offset
 				(xyz 0 -0 0)
 			)
@@ -52570,7 +52570,7 @@
 			(uuid "e94616a8-c82d-42d5-bee0-820968b0662d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/LED-TH_BD5.9-P2.54-RD_GREEN.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/LED-TH_BD5.9-P2.54-RD_GREEN.wrl"
 			(offset
 				(xyz -0 -0 0)
 			)
@@ -53657,7 +53657,7 @@
 			(uuid "bb66b756-e9f9-4244-b25c-5c15c9a06556")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOD-128_L3.7-W2.5-LS4.7-RD-1.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOD-128_L3.7-W2.5-LS4.7-RD-1.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -54429,7 +54429,7 @@
 			(uuid "1a3a1bfa-6e48-4778-a63d-24f2d10be855")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/C2220_L5.6-W5.0-H3.0.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/C2220_L5.6-W5.0-H3.0.wrl"
 			(offset
 				(xyz -914.4 685.8 -0)
 			)
@@ -54979,7 +54979,7 @@
 			(uuid "6f14b4b9-cfc1-49c1-b1bb-e6f1ba914b04")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SW-TH_6P-L8.5-W8.5-P2.54-LS5.5.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SW-TH_6P-L8.5-W8.5-P2.54-LS5.5.wrl"
 			(offset
 				(xyz 0 -0 4.2)
 			)
@@ -55202,7 +55202,7 @@
 			(uuid "db90565f-b80e-4832-8c0b-cc27c2b477e6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/C1210_L3.2-W2.5-H2.5.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/C1210_L3.2-W2.5-H2.5.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -55372,7 +55372,7 @@
 			(uuid "1e55f84a-179d-4c93-b971-f922b5fc745b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/LED-TH_BD5.9-P2.54-RD_GREEN.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/LED-TH_BD5.9-P2.54-RD_GREEN.wrl"
 			(offset
 				(xyz -0 -0 0)
 			)
@@ -56655,7 +56655,7 @@
 			(uuid "ab707eb6-3d37-4f73-8316-379de0e78182")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/C1210_L3.2-W2.5-H2.5.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/C1210_L3.2-W2.5-H2.5.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -57057,7 +57057,7 @@
 			(uuid "e85fd8a4-f526-4827-b390-a27f98e46bd5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOT-416-3P_L1.6-W0.8-H0.9-LS1.6-P1.00.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOT-416-3P_L1.6-W0.8-H0.9-LS1.6-P1.00.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -57606,7 +57606,7 @@
 			(uuid "6b8d9ca6-ff15-45df-8f21-db729b593025")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOP-8_L5.0-W4.0-H1.8-LS6.2-P1.27.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOP-8_L5.0-W4.0-H1.8-LS6.2-P1.27.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -58394,7 +58394,7 @@
 			(uuid "7a1e59aa-d936-4d0c-a181-489ccdeb55a2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/USB-C-SMD_G-SWITCH_GT-USB-7010ASV.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/USB-C-SMD_G-SWITCH_GT-USB-7010ASV.wrl"
 			(offset
 				(xyz 0 -1.05 0)
 			)
@@ -59074,7 +59074,7 @@
 			(uuid "7a2dc990-33c7-4669-acd1-aac648f2c62e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/LED0603-RD_GREEN.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/LED0603-RD_GREEN.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -61135,7 +61135,7 @@
 			(uuid "de784038-7bba-42e7-b8f6-9e12e4fadb17")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/F1812_L4.5-W3.2-H1.0.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/F1812_L4.5-W3.2-H1.0.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -61305,7 +61305,7 @@
 			(uuid "b056bd5c-3eff-4b54-9901-79e6c93fb10f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/LED-TH_BD5.9-P2.54-RD_GREEN.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/LED-TH_BD5.9-P2.54-RD_GREEN.wrl"
 			(offset
 				(xyz -0 -0 0)
 			)
@@ -61910,7 +61910,7 @@
 			(uuid "119655d6-85b5-439d-bf2e-a7246cb1da9f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/LED0603-RD_GREEN.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/LED0603-RD_GREEN.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)

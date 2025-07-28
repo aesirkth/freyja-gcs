@@ -6000,6 +6000,12 @@
 		(uuid "21f046f3-892a-46ee-a171-1df7af2afcff")
 	)
 	(junction
+		(at 210.82 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "283fd5fa-89ba-45b1-bb39-3b5302f2535a")
+	)
+	(junction
 		(at 209.55 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6366,6 +6372,12 @@
 		(uuid "e252f57c-cda2-4e0f-bfc7-c409617c4c14")
 	)
 	(junction
+		(at 205.74 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5eeadf6-bc8f-4578-a66b-0c3f8dec6a65")
+	)
+	(junction
 		(at 50.8 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6690,6 +6702,16 @@
 			(type default)
 		)
 		(uuid "0a3a440d-1db5-4cfd-9ff9-02677a249e7b")
+	)
+	(wire
+		(pts
+			(xy 205.74 87.63) (xy 210.82 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a8b9bad-470b-49d1-b461-e1ebb4208058")
 	)
 	(wire
 		(pts
@@ -7533,6 +7555,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 77.47) (xy 215.9 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cb3299a-ec86-4f83-8a8a-9ae7084e47c1")
+	)
+	(wire
+		(pts
 			(xy 104.14 177.8) (xy 106.68 177.8)
 		)
 		(stroke
@@ -7703,6 +7735,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 86.36) (xy 210.82 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f457ec2-ee53-49bf-99ef-c6855ccfb8ee")
+	)
+	(wire
+		(pts
 			(xy 157.48 99.06) (xy 157.48 100.33)
 		)
 		(stroke
@@ -7770,6 +7812,16 @@
 			(type default)
 		)
 		(uuid "637f04bb-430c-45a6-89c9-1c8124733856")
+	)
+	(wire
+		(pts
+			(xy 210.82 77.47) (xy 210.82 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64c90057-8133-46d6-bb7a-996e34aa0374")
 	)
 	(wire
 		(pts
@@ -7920,6 +7972,16 @@
 			(type default)
 		)
 		(uuid "6f06f841-d0a6-41a1-80fb-095b194cf37d")
+	)
+	(wire
+		(pts
+			(xy 210.82 87.63) (xy 215.9 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f991e94-78b0-4580-a72c-5ef64b7ad04e")
 	)
 	(wire
 		(pts
@@ -8200,6 +8262,16 @@
 			(type default)
 		)
 		(uuid "82cf1a28-4ed3-40c9-9d54-5356b33f77d0")
+	)
+	(wire
+		(pts
+			(xy 215.9 86.36) (xy 215.9 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83a11516-3b48-4412-aff5-cf17f2a67c33")
 	)
 	(wire
 		(pts
@@ -10636,6 +10708,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 210.82 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01ab6c2a-f33a-4dd3-84eb-b06e9d703da8")
+		(property "Reference" "H9"
+			(at 210.82 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M2.5 12mm"
+			(at 213.36 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:SMTSO25"
+			(at 210.82 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMTSO25120MTJ-B"
+			(at 210.82 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C30182755"
+			(at 210.82 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ccf211f-9930-4c87-923f-3bd433ecf65c")
+		)
+		(instances
+			(project "freyja-gcs-pcb"
+				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
+					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 191.77 137.16 0)
 		(unit 1)
@@ -11793,6 +11940,86 @@
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
 					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 210.82 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2536902f-e408-41d5-b486-245343515982")
+		(property "Reference" "R85"
+			(at 210.82 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 208.28 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 212.598 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 210.82 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C98220"
+			(at 210.82 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0766c6c4-292e-4448-9699-08125a6d2645")
+		)
+		(pin "2"
+			(uuid "4512386e-6248-4d3a-86f2-6cd7cb7e7d6f")
+		)
+		(instances
+			(project "freyja-gcs-pcb"
+				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -16400,6 +16627,86 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 215.9 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa20159e-76ce-4ba6-a08f-763b381124a0")
+		(property "Reference" "R86"
+			(at 215.9 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 213.36 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 217.678 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 215.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C98220"
+			(at 215.9 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db31b4ce-1474-4394-9d78-0f5a365ae389")
+		)
+		(pin "2"
+			(uuid "b7b1b1b5-d792-4dd3-ab1b-767e6238488f")
+		)
+		(instances
+			(project "freyja-gcs-pcb"
+				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
+					(reference "R86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 167.64 43.18 0)
 		(mirror y)
 		(unit 1)
@@ -18226,6 +18533,81 @@
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 215.9 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec1c2612-69c1-45e4-b962-009e4e1a1f58")
+		(property "Reference" "H10"
+			(at 215.9 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M2.5 12mm"
+			(at 218.44 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:SMTSO25"
+			(at 215.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMTSO25120MTJ-B"
+			(at 215.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C30182755"
+			(at 215.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8459c431-76c6-4c1f-8d7d-93a4bedbf9aa")
+		)
+		(instances
+			(project "freyja-gcs-pcb"
+				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
+					(reference "H10")
 					(unit 1)
 				)
 			)

@@ -99,12 +99,12 @@
 
 (rule "JLCPCB: Hole to Hole Clearance (Different Nets)"
 	(condition "A.Net != B.Net")
-	(constraint hole_to_hole (min 0.5mm))
+	(constraint hole_to_hole (min 0.2mm))
 )
 
 (rule "JLCPCB: Via Hole to Via Hole Clearance (Same Net)"
 	(condition "A.Type == 'Via' && B.Type == 'Via' && A.Net == B.Net")
-	(constraint hole_to_hole (min 0.254mm))
+	(constraint hole_to_hole (min 0.2mm))
 )
 
 (rule "JLCPCB: Pad to Pad Clearance (Pad without Hole, Different Nets)"
@@ -114,34 +114,34 @@
 
 (rule "JLCPCB: Pad Hole to Pad Hole Clearance (Pad with Hole, Different Nets)"
 	(condition "A.Type == 'Pad' && (A.Pad_Type == 'Through-hole' || A.Pad_Type == 'NPTH, mechanical') && B.Type == 'Pad' && (B.Pad_Type == 'Through-hole' || B.Pad_Type == 'NPTH, mechanical') && A.Net != B.Net")
-	(constraint hole_to_hole (min 0.5mm))
+	(constraint hole_to_hole (min 0.2mm))
 )
 
 # NOTE: This is not stated specifically, but is implied by other rules.
 (rule "JLCPCB: Via/Pad to Via/Pad Clearance (Different Nets)"
 	(condition "(A.Type == 'Pad' || A.Type == 'Via') && (B.Type == 'Pad' || B.Type == 'Via') && A.Net != B.Net")
-	(constraint clearance (min 0.127mm))
+	(constraint clearance (min 0.2mm))
 )
 
 # NOTE: This is not stated specifically, but is implied by other rules.
 (rule "JLCPCB: Via/Pad Hole to Via/Pad Hole Clearance (Same Net)"
 	(condition "(A.Type == 'Pad' || A.Type == 'Via') && (B.Type == 'Pad' || B.Type == 'Via') && A.Net == B.Net")
-	(constraint hole_to_hole (min 0.254mm))
+	(constraint hole_to_hole (min 0.2mm))
 )
 
 (rule "JLCPCB: Via to Trace"
 	(condition "A.Type == 'Via' && B.Type == 'Track'")
-	(constraint hole_clearance (min 0.254mm))
+	(constraint hole_clearance (min 0.2mm))
 )
 
 (rule "JLCPCB: PTH to Trace"
 	(condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole' && A.isPlated() && B.Type == 'Track'")
-	(constraint hole_clearance (min 0.33mm))
+	(constraint hole_clearance (min 0.28mm))
 )
 
 (rule "JLCPCB: NPTH to Trace"
 	(condition "A.Type == 'Pad' && A.Pad_Type == 'NPTH, mechanical' && !A.isPlated() && B.Type == 'Track'")
-	(constraint hole_clearance (min 0.254mm))
+	(constraint hole_clearance (min 0.2mm))
 )
 
 (rule "JLCPCB: Pad to Trace"
