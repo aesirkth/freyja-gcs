@@ -2501,6 +2501,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 69.85) (xy 274.32 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14f3718b-9839-4573-806d-4a1c3fa64d6e")
+	)
+	(wire
+		(pts
 			(xy 274.32 30.48) (xy 274.32 31.75)
 		)
 		(stroke
@@ -2778,6 +2788,16 @@
 			(type default)
 		)
 		(uuid "30e762cf-19d4-4b68-a290-f6e7150aa083")
+	)
+	(wire
+		(pts
+			(xy 274.32 78.74) (xy 274.32 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3230bca8-184e-4b5c-a9af-aa01266c2415")
 	)
 	(wire
 		(pts
@@ -3831,6 +3851,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 87.63) (xy 274.32 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97f759d8-60e3-4c7b-8175-326c5102cd1a")
+	)
+	(wire
+		(pts
 			(xy 76.2 67.31) (xy 76.2 68.58)
 		)
 		(stroke
@@ -4041,6 +4071,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 91.44) (xy 261.62 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b628eb1a-1c65-4ca0-b701-0d30ae8f0771")
+	)
+	(wire
+		(pts
 			(xy 134.62 40.64) (xy 134.62 43.18)
 		)
 		(stroke
@@ -4058,6 +4098,16 @@
 			(type default)
 		)
 		(uuid "b96c06a6-69fd-47a7-abc8-67fc20683d4b")
+	)
+	(wire
+		(pts
+			(xy 274.32 102.87) (xy 274.32 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb06735d-2ab3-4e5b-8f35-1eda760066b3")
 	)
 	(wire
 		(pts
@@ -4709,6 +4759,28 @@
 		)
 		(uuid "fe1090ce-86bc-414e-ba27-8f81abac2091")
 	)
+	(global_label "AUX2_LED"
+		(shape input)
+		(at 261.62 91.44 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "08583758-260c-4a08-bd40-0845cecd9c8d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.62 79.202 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TGL4_LED"
 		(shape input)
 		(at 20.32 88.9 90)
@@ -5215,7 +5287,7 @@
 			)
 		)
 	)
-	(global_label "AUX_LED"
+	(global_label "AUX1_LED"
 		(shape input)
 		(at 241.3 91.44 90)
 		(fields_autoplaced yes)
@@ -5227,7 +5299,7 @@
 		)
 		(uuid "e55968aa-8dbb-489c-9d92-18e026882870")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3 80.4115 90)
+			(at 241.3 79.202 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6561,7 +6633,8 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 162.56 81.28 90)
+		(at 162.56 81.28 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6569,7 +6642,7 @@
 		(dnp no)
 		(uuid "1cf624dd-baca-41b4-8199-1fa19c15958f")
 		(property "Reference" "D48"
-			(at 166.37 81.5974 90)
+			(at 158.75 81.5974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6578,7 +6651,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 166.37 84.1374 90)
+			(at 158.75 84.1374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6614,7 +6687,7 @@
 			)
 		)
 		(property "LCSC Part" "C2895548"
-			(at 172.72 81.28 0)
+			(at 152.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7360,94 +7433,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 254 83.82 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c22bf21-8ed1-49e3-bf51-6961d7a55415")
-		(property "Reference" "D56"
-			(at 250.19 84.1374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Yellow"
-			(at 250.19 86.6774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "EasyEDA:LED-TH_BD5.9-P2.54-RD_GREEN"
-			(at 254 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "XL-502UYD Light emitting diode"
-			(at 254 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C2895494"
-			(at 243.84 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 254 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9ef97fdc-7882-40bf-9711-8fc0e6600b77")
-		)
-		(pin "1"
-			(uuid "a311793f-b9ef-4312-824e-d518372e71dd")
-		)
-		(instances
-			(project "freyja-gcs-pcb"
-				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/99f2965f-35dc-4bd1-a7bc-81425487c2fb"
-					(reference "D56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 162.56 25.4 0)
 		(mirror y)
@@ -7950,7 +7935,8 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 33.02 81.28 90)
+		(at 33.02 81.28 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7958,7 +7944,7 @@
 		(dnp no)
 		(uuid "3d73ddd0-38a9-4b60-a61c-833f84c186f8")
 		(property "Reference" "D33"
-			(at 36.83 81.5974 90)
+			(at 29.21 81.5974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7967,7 +7953,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 36.83 84.1374 90)
+			(at 29.21 84.1374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8003,7 +7989,7 @@
 			)
 		)
 		(property "LCSC Part" "C2895548"
-			(at 43.18 81.28 0)
+			(at 22.86 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8648,6 +8634,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 274.32 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4aca541c-a9d8-4cff-9f90-2a44e5ea891d")
+		(property "Reference" "#PWR063"
+			(at 274.32 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 274.32 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 274.32 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a6a912e-dc5e-4e61-b143-5cde00e54daa")
+		)
+		(instances
+			(project "freyja-gcs-pcb"
+				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/99f2965f-35dc-4bd1-a7bc-81425487c2fb"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "ST-0-102-A01-T000-LF+PJ_1")
 		(lib_id "EasyEDA:ST-0-102-A01-T000-LF+PJ")
 		(at 91.44 31.75 270)
@@ -8946,6 +8998,94 @@
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/99f2965f-35dc-4bd1-a7bc-81425487c2fb"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 274.32 83.82 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a6230aa-6de1-4bcf-823a-9993ec2c1791")
+		(property "Reference" "D58"
+			(at 270.51 84.1374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Green"
+			(at 270.51 86.6774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-TH_BD5.9-P2.54-RD_GREEN"
+			(at 274.32 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "XL-502UGD Light emitting diode"
+			(at 274.32 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2895548"
+			(at 264.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 274.32 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b85792d-5689-4b0c-bcdb-762a808ae856")
+		)
+		(pin "1"
+			(uuid "9eb4c0d8-0c8b-469c-8824-2ff467b3d226")
+		)
+		(instances
+			(project "freyja-gcs-pcb"
+				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/99f2965f-35dc-4bd1-a7bc-81425487c2fb"
+					(reference "D58")
 					(unit 1)
 				)
 			)
@@ -9772,7 +9912,8 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 119.38 34.29 90)
+		(at 119.38 34.29 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9780,7 +9921,7 @@
 		(dnp no)
 		(uuid "6cf6be09-6f4f-44ed-821e-c839e5756405")
 		(property "Reference" "D42"
-			(at 123.19 34.6074 90)
+			(at 115.57 34.6074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9789,7 +9930,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 123.19 37.1474 90)
+			(at 115.57 37.1474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9825,7 +9966,7 @@
 			)
 		)
 		(property "LCSC Part" "C2895548"
-			(at 129.54 34.29 0)
+			(at 109.22 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10441,7 +10582,8 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 119.38 81.28 90)
+		(at 119.38 81.28 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10449,7 +10591,7 @@
 		(dnp no)
 		(uuid "786c87e0-cf6e-42bd-b68a-b4309e42785e")
 		(property "Reference" "D43"
-			(at 123.19 81.5974 90)
+			(at 115.57 81.5974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10458,7 +10600,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 123.19 84.1374 90)
+			(at 115.57 84.1374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10494,7 +10636,7 @@
 			)
 		)
 		(property "LCSC Part" "C2895548"
-			(at 129.54 81.28 0)
+			(at 109.22 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11783,6 +11925,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 274.32 74.93 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9dab6092-48ef-47fd-9a70-a3bd9d678958")
+		(property "Reference" "R90"
+			(at 271.78 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220"
+			(at 271.78 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 276.098 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 274.32 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22962"
+			(at 274.32 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6789ac6b-1b6d-4ad0-a8ae-a98dc0b5a5dc")
+		)
+		(pin "1"
+			(uuid "a79be17f-d84a-4bc2-9657-8882ae92c8bb")
+		)
+		(instances
+			(project "freyja-gcs-pcb"
+				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/99f2965f-35dc-4bd1-a7bc-81425487c2fb"
+					(reference "R90")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EasyEDA:DTC043ZEBTL")
 		(at 25.4 45.72 0)
 		(unit 1)
@@ -11859,6 +12080,94 @@
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/99f2965f-35dc-4bd1-a7bc-81425487c2fb"
 					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 254 83.82 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3b54eef-84d4-4f9d-95d5-a45575e50fce")
+		(property "Reference" "D56"
+			(at 250.19 84.1374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Green"
+			(at 250.19 86.6774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-TH_BD5.9-P2.54-RD_GREEN"
+			(at 254 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "XL-502UGD Light emitting diode"
+			(at 254 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2895548"
+			(at 243.84 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 254 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ab122ef4-4e33-485a-bc61-96a7f78e068e")
+		)
+		(pin "1"
+			(uuid "d6ea3506-2d31-41f6-86b6-573bc6f146b7")
+		)
+		(instances
+			(project "freyja-gcs-pcb"
+				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/99f2965f-35dc-4bd1-a7bc-81425487c2fb"
+					(reference "D56")
 					(unit 1)
 				)
 			)
@@ -12220,7 +12529,8 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 33.02 34.29 90)
+		(at 33.02 34.29 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12228,7 +12538,7 @@
 		(dnp no)
 		(uuid "ada66266-ef3c-4061-b789-1dc5be2c129f")
 		(property "Reference" "D32"
-			(at 36.83 34.6074 90)
+			(at 29.21 34.6074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12237,7 +12547,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 36.83 37.1474 90)
+			(at 29.21 37.1474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12273,7 +12583,7 @@
 			)
 		)
 		(property "LCSC Part" "C2895548"
-			(at 43.18 34.29 0)
+			(at 22.86 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12300,6 +12610,88 @@
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/99f2965f-35dc-4bd1-a7bc-81425487c2fb"
 					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:DTC043ZEBTL")
+		(at 266.7 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adfc2680-226c-4658-bb09-c97deb14e2f1")
+		(property "Reference" "Q26"
+			(at 275.59 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NPN"
+			(at 275.59 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:SOT-416_L1.6-W0.8-P1.00-LS1.6-BR"
+			(at 266.7 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Digital-Transistors_ROHM_DTC043ZEBTL_DTC043ZEBTL_C96459.html"
+			(at 266.7 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DTC043ZEBTL NPN 100mA"
+			(at 266.7 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C96459"
+			(at 266.7 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c82587f8-aab5-4239-a504-55ea32af4ba6")
+		)
+		(pin "1"
+			(uuid "ae2376da-bf3b-4c45-9c8b-439b73ef7d8f")
+		)
+		(pin "2"
+			(uuid "85540eb7-3df3-47c3-845d-8a4b1e404b27")
+		)
+		(instances
+			(project "freyja-gcs-pcb"
+				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/99f2965f-35dc-4bd1-a7bc-81425487c2fb"
+					(reference "Q26")
 					(unit 1)
 				)
 			)
@@ -13060,7 +13452,8 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 76.2 81.28 90)
+		(at 76.2 81.28 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13068,7 +13461,7 @@
 		(dnp no)
 		(uuid "c55cbe7b-280a-467f-bc0a-989b001b2b79")
 		(property "Reference" "D38"
-			(at 80.01 81.5974 90)
+			(at 72.39 81.5974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13077,7 +13470,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 80.01 84.1374 90)
+			(at 72.39 84.1374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13113,7 +13506,7 @@
 			)
 		)
 		(property "LCSC Part" "C2895548"
-			(at 86.36 81.28 0)
+			(at 66.04 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13947,6 +14340,72 @@
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/99f2965f-35dc-4bd1-a7bc-81425487c2fb"
 					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 274.32 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e528aa03-c481-462e-bb67-8a5ad348a555")
+		(property "Reference" "#PWR0122"
+			(at 274.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f84ff27-0c0c-4133-a229-e5cf2da01448")
+		)
+		(instances
+			(project "freyja-gcs-pcb"
+				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d/99f2965f-35dc-4bd1-a7bc-81425487c2fb"
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
