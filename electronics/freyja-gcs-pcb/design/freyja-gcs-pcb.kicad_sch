@@ -5747,131 +5747,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VBUS"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "HS OSC"
 		(exclude_from_sim no)
@@ -6142,6 +6017,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "685fca86-4a14-4f4f-a1a5-f3acda273253")
+	)
+	(junction
+		(at 111.76 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bb5ede4-f18a-4f84-8f67-c7f85514a8b7")
 	)
 	(junction
 		(at 59.69 27.94)
@@ -6512,10 +6393,6 @@
 	(no_connect
 		(at 156.21 158.75)
 		(uuid "62594214-bd51-44e9-9c41-2045333f907e")
-	)
-	(no_connect
-		(at 119.38 170.18)
-		(uuid "6833f317-8eed-49f3-be40-11880a5e5a1a")
 	)
 	(no_connect
 		(at 53.34 170.18)
@@ -7296,6 +7173,16 @@
 			(type default)
 		)
 		(uuid "3a5ecefb-69fb-429e-81ec-163a6a39500d")
+	)
+	(wire
+		(pts
+			(xy 116.84 170.18) (xy 116.84 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb3fa58-6e23-4053-9b9e-5b1a1faa019b")
 	)
 	(wire
 		(pts
@@ -8379,7 +8266,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 175.26) (xy 49.53 175.26)
+			(xy 46.99 175.26) (xy 49.53 175.26)
 		)
 		(stroke
 			(width 0)
@@ -8959,7 +8846,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 152.4) (xy 49.53 152.4)
+			(xy 46.99 152.4) (xy 49.53 152.4)
 		)
 		(stroke
 			(width 0)
@@ -9269,6 +9156,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 177.8) (xy 116.84 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8e11e4c-eb25-4f11-a58d-bded18813d87")
+	)
+	(wire
+		(pts
 			(xy 167.64 140.97) (xy 168.91 140.97)
 		)
 		(stroke
@@ -9456,6 +9353,16 @@
 			(type default)
 		)
 		(uuid "e8e9335f-0a65-44d9-9750-5030320fbd5e")
+	)
+	(wire
+		(pts
+			(xy 116.84 170.18) (xy 119.38 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eab3a865-9c95-4856-afed-3e95bc752856")
 	)
 	(wire
 		(pts
@@ -9848,7 +9755,7 @@
 		(uuid "31395ebe-3fd0-4d2e-8f47-23da1a437935")
 	)
 	(label "USB_D_N"
-		(at 36.83 165.1 0)
+		(at 38.1 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9918,7 +9825,7 @@
 		(uuid "83b50ac0-2754-46c2-a4d7-034cbc3aa6f7")
 	)
 	(label "USB_D_P"
-		(at 36.83 167.64 0)
+		(at 38.1 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10110,6 +10017,28 @@
 		(uuid "202e583d-09ed-4730-a457-561dde70a596")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 51.9272 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS_DEV"
+		(shape output)
+		(at 46.99 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20342160-cf06-442b-915e-96965463aa52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.631 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10550,6 +10479,28 @@
 		(uuid "b7988ce2-90f6-494a-b660-3be9d65f4e76")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 50.9596 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS_DEV"
+		(shape output)
+		(at 46.99 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c7be506d-2ccb-4aeb-a04f-4ee3de4c354f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.631 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12449,72 +12400,6 @@
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 44.45 152.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "34607422-bdd2-4044-aa75-163a3512d53b")
-		(property "Reference" "#PWR05"
-			(at 48.26 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 44.704 150.114 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 44.45 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "061c5f05-b5d0-4f2f-a5f6-71d2b2147113")
-		)
-		(instances
-			(project ""
-				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -18246,72 +18131,6 @@
 			(project "freyja-gcs-pcb"
 				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 44.45 175.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cd51f41c-9fff-4cf3-bb6d-40817e6377f8")
-		(property "Reference" "#PWR06"
-			(at 48.26 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 43.688 177.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 44.45 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34b8ff9c-0544-4ead-836c-366809c0daff")
-		)
-		(instances
-			(project ""
-				(path "/c292fa04-82ad-49e9-a9d8-422554d1d11d"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)

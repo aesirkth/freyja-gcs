@@ -56,6 +56,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.0,
+          "width": 0.28
         }
       ],
       "drc_exclusions": [],
@@ -189,10 +194,11 @@
       ],
       "track_widths": [
         0.0,
-        0.15,
         0.2,
         0.3,
-        0.5
+        0.5,
+        1.0,
+        8.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -503,10 +509,20 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.1,
+        "diff_pair_width": 0.28,
+        "name": "USB_90OHM",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28
       }
     ],
     "meta": {
