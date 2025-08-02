@@ -198,7 +198,8 @@
         0.3,
         0.5,
         1.0,
-        8.0
+        2.0,
+        5.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -515,12 +516,22 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.3,
+        "name": "POWER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 5.0,
+        "via_diameter": 1.0,
+        "via_drill": 0.5
+      },
+      {
         "clearance": 0.1,
         "diff_pair_gap": 0.1,
         "diff_pair_width": 0.28,
         "name": "USB_90OHM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.28
       }
@@ -537,7 +548,20 @@
         "USB_90OHM"
       ]
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "POWER",
+        "pattern": "/POWER/VBUS"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/POWER/VPWR"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "VBAT"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
