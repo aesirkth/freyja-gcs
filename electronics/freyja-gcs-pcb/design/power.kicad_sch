@@ -7351,12 +7351,6 @@
 		(uuid "cd8a5766-0471-4ac2-bb0d-4b3983378a4d")
 	)
 	(junction
-		(at 170.18 246.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cfb0e4c5-fdc0-4550-84de-c1327ef2ba4a")
-	)
-	(junction
 		(at 303.53 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7651,16 +7645,6 @@
 	(no_connect
 		(at 102.87 50.8)
 		(uuid "fdfb1b39-9a7e-4f04-b9ae-7fff511b36fc")
-	)
-	(wire
-		(pts
-			(xy 170.18 246.38) (xy 170.18 257.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "001feaa0-6cab-4151-aae2-e9c9d89c7ee1")
 	)
 	(wire
 		(pts
@@ -8861,16 +8845,6 @@
 			(type default)
 		)
 		(uuid "3e97da67-a303-410c-afb9-c2da9beb5831")
-	)
-	(wire
-		(pts
-			(xy 170.18 241.3) (xy 170.18 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ec97875-441e-4f50-8adb-74ff512055de")
 	)
 	(wire
 		(pts
@@ -10924,6 +10898,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 241.3) (xy 170.18 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa1cdd66-fcec-4f4f-96f1-dc35f9850d93")
+	)
+	(wire
+		(pts
 			(xy 85.09 132.08) (xy 85.09 134.62)
 		)
 		(stroke
@@ -12214,7 +12198,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 246.38) (xy 173.99 246.38)
+			(xy 170.18 241.3) (xy 177.8 241.3)
 		)
 		(stroke
 			(width 0)
@@ -12464,7 +12448,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 232.41) (xy 173.99 232.41)
+			(xy 170.18 232.41) (xy 177.8 232.41)
 		)
 		(stroke
 			(width 0)
@@ -13076,8 +13060,8 @@
 		)
 		(uuid "973e7ba1-e5dd-466a-a715-f0811062e92b")
 	)
-	(label "BAT-"
-		(at 171.45 246.38 0)
+	(label "NBAT"
+		(at 175.26 241.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13085,6 +13069,16 @@
 			(justify left bottom)
 		)
 		(uuid "baa2445c-4202-4f66-98cc-b3538d6c70cd")
+	)
+	(label "MBAT"
+		(at 175.26 232.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2e230f5-16ee-4043-bc6b-e8057e7c76ff")
 	)
 	(global_label "VBUS_DEV"
 		(shape input)
@@ -19520,7 +19514,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 173.99 232.41 270)
+		(at 177.8 232.41 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -19528,7 +19522,7 @@
 		(dnp no)
 		(uuid "8d94dc5e-2625-4580-8075-ab4190b841a5")
 		(property "Reference" "TP10"
-			(at 179.324 230.886 0)
+			(at 183.134 230.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19537,7 +19531,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 176.0221 234.95 0)
+			(at 179.8321 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19547,7 +19541,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
-			(at 173.99 237.49 0)
+			(at 177.8 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19556,7 +19550,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 237.49 0)
+			(at 177.8 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19565,7 +19559,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 173.99 232.41 0)
+			(at 177.8 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23187,7 +23181,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 173.99 246.38 270)
+		(at 177.8 241.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -23195,7 +23189,7 @@
 		(dnp no)
 		(uuid "e44beed3-a4cb-49f5-8088-9358000114dc")
 		(property "Reference" "TP1"
-			(at 179.324 244.856 0)
+			(at 183.134 239.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23204,7 +23198,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 176.0221 248.92 0)
+			(at 179.8321 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23214,7 +23208,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
-			(at 173.99 251.46 0)
+			(at 177.8 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23223,7 +23217,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 251.46 0)
+			(at 177.8 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23232,7 +23226,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 173.99 246.38 0)
+			(at 177.8 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -13,8 +13,8 @@ kicad + the plugin [impartGUI](https://github.com/Steffen-W/Import-LIB-KiCad-Plu
 ## TODO PCB
 - [x] ESD/TVS diodes on every connecter and button
 - Layout
-- configure stackup according to jlcpcb specs
-- usb 90 ohm diff-z
+- [x] configure stackup according to jlcpcb specs
+- [x] usb 90 ohm diff-z
 - [x] valve toggle switches
 - [x] arm keyrings
 - [x] 7-segment for redundancy operation without rpi
@@ -34,6 +34,16 @@ kicad + the plugin [impartGUI](https://github.com/Steffen-W/Import-LIB-KiCad-Plu
 - [x] fan connector
 - [x] battery ntc work up to 70deg
 - [x] led backlight driver
+- [x] correct mounting holes
+  - [x] dnp on resistors
+- [ ] export 3d model and place raspberry to check fitment
+- [ ] silkscreen
+  - [X] designators
+  - [ ] pinout
+  - [ ] name
+  - [ ] aesir
+  - [ ] connection
+  - [ ] battery polarity
 
 ## Components selection 
 - 2 LiPo cells in series. (7.2V = 3.7 + 3.7V)

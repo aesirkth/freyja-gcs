@@ -6335,6 +6335,10 @@
 		(uuid "0d211e39-4a72-4cd7-a5a2-78bd20d2582d")
 	)
 	(no_connect
+		(at 96.52 99.06)
+		(uuid "1a720a15-8221-4854-85f0-888105065eb0")
+	)
+	(no_connect
 		(at 156.21 168.91)
 		(uuid "25611d06-1004-4bd0-b787-9db0f84d0417")
 	)
@@ -6415,6 +6419,10 @@
 		(uuid "954f583a-e08b-4545-a57e-8eeef80da413")
 	)
 	(no_connect
+		(at 96.52 101.6)
+		(uuid "979a0894-a717-45b4-b38a-6b2df6116867")
+	)
+	(no_connect
 		(at 156.21 156.21)
 		(uuid "9a12159f-e3ec-4534-a51c-3b147a8bd1e1")
 	)
@@ -6423,8 +6431,16 @@
 		(uuid "a6285999-e217-44ea-bb9f-13313f64416e")
 	)
 	(no_connect
+		(at 96.52 96.52)
+		(uuid "b23c4b10-21ea-40fd-bf52-1d118d756728")
+	)
+	(no_connect
 		(at 143.51 173.99)
 		(uuid "b7cba9c9-0e7a-45e0-80b8-ee34245659a6")
+	)
+	(no_connect
+		(at 96.52 93.98)
+		(uuid "c920c348-677e-475e-82a5-cf4e70b67f84")
 	)
 	(no_connect
 		(at 143.51 151.13)
@@ -6437,6 +6453,10 @@
 	(no_connect
 		(at 143.51 130.81)
 		(uuid "d6514bcc-d50b-41b5-a349-766febee3c9d")
+	)
+	(no_connect
+		(at 96.52 91.44)
+		(uuid "d7412f3d-e68c-4af1-9c8c-d801787d5e16")
 	)
 	(no_connect
 		(at 187.96 80.01)
@@ -7536,7 +7556,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 106.68) (xy 96.52 106.68)
+			(xy 106.68 106.68) (xy 96.52 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8156,7 +8176,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 104.14) (xy 96.52 104.14)
+			(xy 106.68 104.14) (xy 96.52 104.14)
 		)
 		(stroke
 			(width 0)
@@ -9685,7 +9705,7 @@
 		(uuid "fff90037-fee4-4a2d-baa8-48338359a724")
 	)
 	(label "CAN_RX"
-		(at 123.19 104.14 180)
+		(at 106.68 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9865,7 +9885,7 @@
 		(uuid "e1142045-4063-408a-8b7f-7621fddb0313")
 	)
 	(label "CAN_TX"
-		(at 123.19 106.68 180)
+		(at 106.68 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10780,9 +10800,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "01735fb1-2f8d-4a5e-ba5b-88d30d495425")
 		(property "Reference" "R87"
 			(at 254 149.606 90)
@@ -10881,7 +10901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "EasyEDA:SMTSO25"
+		(property "Footprint" "EasyEDA:SMTSO25100"
 			(at 243.84 139.7 0)
 			(effects
 				(font
@@ -11300,7 +11320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "EasyEDA:SMTSO25"
+		(property "Footprint" "EasyEDA:SMTSO25100"
 			(at 238.76 139.7 0)
 			(effects
 				(font
@@ -12044,7 +12064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "EasyEDA:SMTSO25"
+		(property "Footprint" "EasyEDA:SMTSO25100"
 			(at 233.68 139.7 0)
 			(effects
 				(font
@@ -12098,9 +12118,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2536902f-e408-41d5-b486-245343515982")
 		(property "Reference" "R85"
 			(at 243.84 149.606 90)
@@ -12391,9 +12411,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "356d8e50-0d1c-492c-beb7-aa6f0ffa72ee")
 		(property "Reference" "R84"
 			(at 238.76 149.606 90)
@@ -13162,7 +13182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "EasyEDA:SMTSO25"
+		(property "Footprint" "EasyEDA:SMTSO25100"
 			(at 223.52 139.7 0)
 			(effects
 				(font
@@ -13613,9 +13633,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4c22c927-88a5-4ef9-bcce-8f3253a7ff75")
 		(property "Reference" "R81"
 			(at 223.52 149.606 90)
@@ -13770,9 +13790,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "54e0df60-6870-45ca-8ed6-8b494f660f99")
 		(property "Reference" "R89"
 			(at 264.16 149.606 90)
@@ -13849,9 +13869,9 @@
 		(at 200.66 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5701c1ab-6f41-427d-91b7-982e5afe999e")
 		(property "Reference" "R10"
@@ -13931,10 +13951,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5a9ccf4d-05ff-4a37-956b-15ad8d8cfd57")
 		(property "Reference" "C3"
-			(at 44.45 39.3762 0)
+			(at 44.45 39.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14159,7 +14178,7 @@
 		(dnp no)
 		(uuid "62db8fb1-bd34-45fb-b2a0-7c15c90cc362")
 		(property "Reference" "C1"
-			(at 17.78 35.052 0)
+			(at 20.32 34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14168,7 +14187,7 @@
 			)
 		)
 		(property "Value" "18p"
-			(at 17.526 36.83 0)
+			(at 20.066 36.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14254,7 +14273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "EasyEDA:SMTSO25"
+		(property "Footprint" "EasyEDA:SMTSO25100"
 			(at 259.08 139.7 0)
 			(effects
 				(font
@@ -14936,9 +14955,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "780efae6-ade9-4913-94a3-d0af0a9f032a")
 		(property "Reference" "R82"
 			(at 228.6 149.606 90)
@@ -15016,9 +15035,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "78a27634-ae88-4b77-a457-0233a851f447")
 		(property "Reference" "R88"
 			(at 259.08 149.606 90)
@@ -15330,9 +15349,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "809f91af-762b-4304-b80e-284af81612cf")
 		(property "Reference" "R7"
 			(at 208.28 149.606 90)
@@ -15688,7 +15707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "EasyEDA:SMTSO25"
+		(property "Footprint" "EasyEDA:SMTSO25120"
 			(at 203.2 139.7 0)
 			(effects
 				(font
@@ -16323,7 +16342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "EasyEDA:SMTSO25"
+		(property "Footprint" "EasyEDA:SMTSO25100"
 			(at 228.6 139.7 0)
 			(effects
 				(font
@@ -16533,9 +16552,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a3b8bb1e-701e-41da-851c-5d0379510aba")
 		(property "Reference" "R6"
 			(at 203.2 149.606 90)
@@ -16947,9 +16966,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "aa20159e-76ce-4ba6-a08f-763b381124a0")
 		(property "Reference" "R86"
 			(at 248.92 149.606 90)
@@ -17194,7 +17213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "EasyEDA:SMTSO25"
+		(property "Footprint" "EasyEDA:SMTSO25120"
 			(at 208.28 139.7 0)
 			(effects
 				(font
@@ -17327,9 +17346,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b5c5a0da-9827-477c-af77-f2fb68b2bdbe")
 		(property "Reference" "R83"
 			(at 233.68 149.606 90)
@@ -17495,7 +17514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "EasyEDA:SMTSO25"
+		(property "Footprint" "EasyEDA:SMTSO25100"
 			(at 264.16 139.7 0)
 			(effects
 				(font
@@ -18143,7 +18162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "EasyEDA:SMTSO25"
+		(property "Footprint" "EasyEDA:SMTSO25120"
 			(at 198.12 139.7 0)
 			(effects
 				(font
@@ -18218,7 +18237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "EasyEDA:SMTSO25"
+		(property "Footprint" "EasyEDA:SMTSO25100"
 			(at 254 139.7 0)
 			(effects
 				(font
@@ -18865,9 +18884,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "eb79819a-ab9b-4e59-b901-96a601e84d40")
 		(property "Reference" "R4"
 			(at 193.04 149.606 90)
@@ -18965,7 +18984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "EasyEDA:SMTSO25"
+		(property "Footprint" "EasyEDA:SMTSO25100"
 			(at 248.92 139.7 0)
 			(effects
 				(font
@@ -19106,7 +19125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "EasyEDA:SMTSO25"
+		(property "Footprint" "EasyEDA:SMTSO25120"
 			(at 193.04 139.7 0)
 			(effects
 				(font
@@ -19302,9 +19321,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fbad920b-3a21-415e-a1f8-f06e4c3efd72")
 		(property "Reference" "R5"
 			(at 198.12 149.606 90)
