@@ -37,13 +37,13 @@ kicad + the plugin [impartGUI](https://github.com/Steffen-W/Import-LIB-KiCad-Plu
 - [x] correct mounting holes
   - [x] dnp on resistors
 - [ ] export 3d model and place raspberry to check fitment
-- [ ] silkscreen
+- [x] silkscreen
   - [X] designators
-  - [ ] pinout
-  - [ ] name
-  - [ ] aesir
-  - [ ] connection
-  - [ ] battery polarity
+  - [x] pinout
+  - [x] name
+  - [x] aesir
+  - [x] connection
+  - [x] battery polarity
 
 ## Components selection 
 - 2 LiPo cells in series. (7.2V = 3.7 + 3.7V)
