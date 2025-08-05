@@ -175,12 +175,11 @@
 			)
 		)
 	)
-	(pad "" thru_hole circle
+	(pad "" np_thru_hole circle
 		(at 8 -35.84)
 		(size 2.4 2.4)
 		(drill 2.4)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F&B.Cu" "*.Mask")
 		(uuid "9bf629bf-5e70-4b26-9134-9d8e4c46f9e9")
 	)
 	(pad "1" smd rect
