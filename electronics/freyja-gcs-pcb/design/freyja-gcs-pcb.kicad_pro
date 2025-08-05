@@ -485,7 +485,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "EasyEDA"
+      "EasyEDA",
+      "prjlib"
     ],
     "pinned_symbol_libs": [
       "EasyEDA"
