@@ -555,7 +555,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/EasyEDA.3dshapes/CONN-TH_10P-P2.00_HCTL_PH-10AW.wrl"
 		(offset
-			(xyz 0 -3.05 2.4)
+			(xyz 0 -3.4 2.4)
 		)
 		(scale
 			(xyz 1 1 1)
