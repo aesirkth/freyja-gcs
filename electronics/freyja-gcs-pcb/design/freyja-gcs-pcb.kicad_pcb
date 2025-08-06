@@ -40233,7 +40233,7 @@
 		(layer "F.Cu")
 		(uuid "91036db5-da60-42f1-a7e8-e30080c2f147")
 		(at 221.5 124)
-		(property "Reference" "G***"
+		(property "Reference" "LOGO1"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -40281,7 +40281,7 @@
 				)
 			)
 		)
-		(attr through_hole)
+		(attr through_hole board_only exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 4.243609 -2.305463) (xy 4.413637 -2.22764) (xy 4.460551 -2.206127) (xy 4.642131 -2.116483) (xy 4.784312 -2.017978)
@@ -67666,7 +67666,7 @@
 		(layer "B.Cu")
 		(uuid "10584b67-7f1b-497f-be00-6dad6eff2390")
 		(at 172 122 180)
-		(property "Reference" "G***"
+		(property "Reference" "LOGO2"
 			(at 0 0 0)
 			(layer "B.SilkS")
 			(hide yes)
@@ -67718,7 +67718,7 @@
 				(justify mirror)
 			)
 		)
-		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(attr board_only exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy 28.956 -63.110492) (xy 28.956 -64.889262) (xy 29.5275 -64.914297) (xy 30.099 -64.939333) (xy 30.125035 -65.299166)
