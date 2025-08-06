@@ -124,4 +124,5 @@ Specs:
 to activate python venv. have uv installed and execute
 ```
 uv venv --system-site-packages
+uv pip install -r pyproject.toml
 ```
