@@ -120,5 +120,8 @@ Specs:
   pack/unpack. [See wiki comparison of serialization formats](https://en.wikipedia.org/wiki/Comparison_of_data-serialization_formats). Maybe choose Protobuf or similar?
 - Database to store all data
 
-
-
+## venv
+to activate python venv. have uv installed and execute
+```
+uv venv --system-site-packages
+```
