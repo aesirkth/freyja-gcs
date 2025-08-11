@@ -6826,6 +6826,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 40.64) (xy 60.96 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f12197c-678b-4b40-80a1-205c9dc7ac91")
+	)
+	(wire
+		(pts
 			(xy 167.64 151.13) (xy 168.91 151.13)
 		)
 		(stroke
@@ -6843,16 +6853,6 @@
 			(type default)
 		)
 		(uuid "1fbbc255-135b-42f5-bc3d-1d02d2a85385")
-	)
-	(wire
-		(pts
-			(xy 59.69 40.64) (xy 60.96 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "203388c1-be07-41fe-9fa3-dd86055ee352")
 	)
 	(wire
 		(pts
@@ -7833,6 +7833,16 @@
 			(type default)
 		)
 		(uuid "6c327c19-717b-4fb5-8c4d-c48d4d471b96")
+	)
+	(wire
+		(pts
+			(xy 240.03 64.77) (xy 247.65 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cc8bea6-b1b5-4162-98a7-4d627b05e570")
 	)
 	(wire
 		(pts
@@ -9804,6 +9814,16 @@
 		)
 		(uuid "75c98e46-bee1-4e0d-8108-d7604f6bcc2a")
 	)
+	(label "NRST"
+		(at 53.34 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76892d8e-5f7d-4671-ac59-364fbbe9bff2")
+	)
 	(label "SWCLK"
 		(at 111.76 160.02 0)
 		(effects
@@ -9833,6 +9853,16 @@
 			(justify left bottom)
 		)
 		(uuid "a2067aeb-0882-4ab6-9a1d-78fdaad71d48")
+	)
+	(label "NRST"
+		(at 240.03 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aae24fba-8990-48f6-ac65-5c89501a5917")
 	)
 	(label "CANH"
 		(at 229.87 85.09 0)
@@ -9995,28 +10025,6 @@
 		(uuid "1b5d8aeb-2246-453f-a8f1-2cb853a0875e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 45.2749 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "NRST"
-		(shape input)
-		(at 59.69 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "202e583d-09ed-4730-a457-561dde70a596")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.9272 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10215,6 +10223,28 @@
 		(uuid "66212234-3706-47d0-aad7-4a6e8f377d7b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.9351 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NRST"
+		(shape input)
+		(at 247.65 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67a999dd-9786-42d5-b142-d7972ff2c401")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.4128 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10928,7 +10958,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C30182755"
+		(property "LCSC Part" "C2916330"
 			(at 243.84 139.7 0)
 			(effects
 				(font
@@ -11347,7 +11377,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C30182755"
+		(property "LCSC Part" "C2916330"
 			(at 238.76 139.7 0)
 			(effects
 				(font
@@ -12091,7 +12121,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C30182755"
+		(property "LCSC Part" "C2916330"
 			(at 233.68 139.7 0)
 			(effects
 				(font
@@ -13209,7 +13239,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C30182755"
+		(property "LCSC Part" "C2916330"
 			(at 223.52 139.7 0)
 			(effects
 				(font
@@ -13919,7 +13949,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C23186"
+		(property "LCSC Part" "C22787"
 			(at 200.66 83.82 0)
 			(effects
 				(font
@@ -14300,7 +14330,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C30182755"
+		(property "LCSC Part" "C2916330"
 			(at 259.08 139.7 0)
 			(effects
 				(font
@@ -15163,7 +15193,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C23186"
+		(property "LCSC Part" "C22787"
 			(at 114.3 154.94 0)
 			(effects
 				(font
@@ -15734,7 +15764,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C30182755"
+		(property "LCSC Part" "C30182754"
 			(at 203.2 139.7 0)
 			(effects
 				(font
@@ -16012,7 +16042,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C127509"
+		(property "LCSC Part" "C2689502"
 			(at 167.64 31.75 90)
 			(effects
 				(font
@@ -16208,7 +16238,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C160392"
+		(property "LCSC Part" "C2764185"
 			(at 124.46 162.56 0)
 			(effects
 				(font
@@ -16369,7 +16399,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C30182755"
+		(property "LCSC Part" "C2916330"
 			(at 228.6 139.7 0)
 			(effects
 				(font
@@ -17240,7 +17270,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C30182755"
+		(property "LCSC Part" "C30182754"
 			(at 208.28 139.7 0)
 			(effects
 				(font
@@ -17541,7 +17571,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C30182755"
+		(property "LCSC Part" "C2916330"
 			(at 264.16 139.7 0)
 			(effects
 				(font
@@ -17909,7 +17939,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C127509"
+		(property "LCSC Part" "C2689502"
 			(at 199.39 41.91 90)
 			(effects
 				(font
@@ -18189,7 +18219,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C30182755"
+		(property "LCSC Part" "C30182754"
 			(at 198.12 139.7 0)
 			(effects
 				(font
@@ -18264,7 +18294,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C30182755"
+		(property "LCSC Part" "C2916330"
 			(at 254 139.7 0)
 			(effects
 				(font
@@ -19011,7 +19041,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C30182755"
+		(property "LCSC Part" "C2916330"
 			(at 248.92 139.7 0)
 			(effects
 				(font
@@ -19152,7 +19182,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C30182755"
+		(property "LCSC Part" "C30182754"
 			(at 193.04 139.7 0)
 			(effects
 				(font
@@ -19464,7 +19494,7 @@
 		)
 	)
 	(sheet
-		(at 229.87 41.91)
+		(at 257.81 63.5)
 		(size 21.59 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19480,7 +19510,7 @@
 		)
 		(uuid "824ebaf0-8cb2-47d2-898f-7e11886db031")
 		(property "Sheetname" "7-Segment Display"
-			(at 229.87 41.1984 0)
+			(at 257.81 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19489,7 +19519,7 @@
 			)
 		)
 		(property "Sheetfile" "7seg.kicad_sch"
-			(at 229.87 57.7346 0)
+			(at 257.81 79.3246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19506,7 +19536,7 @@
 		)
 	)
 	(sheet
-		(at 256.54 20.32)
+		(at 257.81 40.64)
 		(size 21.59 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19522,7 +19552,7 @@
 		)
 		(uuid "99f2965f-35dc-4bd1-a7bc-81425487c2fb")
 		(property "Sheetname" "Switches & indicators"
-			(at 256.54 19.6084 0)
+			(at 257.81 39.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19531,7 +19561,7 @@
 			)
 		)
 		(property "Sheetfile" "Switch_pins.kicad_sch"
-			(at 256.54 36.1446 0)
+			(at 257.81 56.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19548,7 +19578,7 @@
 		)
 	)
 	(sheet
-		(at 229.87 20.32)
+		(at 257.81 17.78)
 		(size 21.59 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19564,7 +19594,7 @@
 		)
 		(uuid "c65c6484-459d-48da-abd0-c2a58ebde1bb")
 		(property "Sheetname" "Power"
-			(at 229.87 19.6084 0)
+			(at 257.81 17.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19573,7 +19603,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 229.87 36.1446 0)
+			(at 257.81 33.6046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
